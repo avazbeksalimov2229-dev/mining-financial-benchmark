@@ -1,0 +1,44 @@
+metric,statement,taxonomy,concept,period_type,priority
+Revenue,Income statement,us-gaap,Revenues,duration,1
+Revenue,Income statement,us-gaap,RevenueFromContractWithCustomerExcludingAssessedTax,duration,2
+Revenue,Income statement,us-gaap,SalesRevenueNet,duration,3
+Revenue,Income statement,ifrs-full,Revenue,duration,4
+Revenue,Income statement,ifrs-full,RevenueFromContractsWithCustomers,duration,5
+Profit before tax,Income statement,us-gaap,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest,duration,1
+Profit before tax,Income statement,us-gaap,IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments,duration,2
+Profit before tax,Income statement,ifrs-full,ProfitLossBeforeTax,duration,3
+Net income,Income statement,us-gaap,NetIncomeLoss,duration,1
+Net income,Income statement,us-gaap,NetIncomeLossAvailableToCommonStockholdersBasic,duration,2
+Net income,Income statement,ifrs-full,ProfitLossAttributableToOwnersOfParent,duration,3
+Net income,Income statement,ifrs-full,ProfitLoss,duration,4
+Depreciation & amortization,Income statement,us-gaap,DepreciationDepletionAndAmortization,duration,1
+Depreciation & amortization,Income statement,us-gaap,DepreciationAndAmortization,duration,2
+Depreciation & amortization,Income statement,ifrs-full,DepreciationAndAmortisationExpense,duration,3
+Depreciation & amortization,Income statement,ifrs-full,AdjustmentsForDepreciationAndAmortisationExpense,duration,4
+Depreciation & amortization,Income statement,ifrs-full,DepreciationExpense,duration,5
+Operating cash flow,Cash flow,us-gaap,NetCashProvidedByUsedInOperatingActivities,duration,1
+Operating cash flow,Cash flow,us-gaap,NetCashProvidedByUsedInOperatingActivitiesContinuingOperations,duration,2
+Operating cash flow,Cash flow,ifrs-full,CashFlowsFromUsedInOperatingActivities,duration,3
+Capex,Cash flow,us-gaap,PaymentsToAcquirePropertyPlantAndEquipment,duration,1
+Capex,Cash flow,us-gaap,PaymentsToAcquireProductiveAssets,duration,2
+Capex,Cash flow,us-gaap,PaymentsToAcquireMiningAssets,duration,3
+Capex,Cash flow,ifrs-full,PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,duration,4
+Capex,Cash flow,ifrs-full,PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets,duration,5
+Capex,Cash flow,ifrs-full,PurchaseOfMiningAssetsClassifiedAsInvestingActivities,duration,6
+Dividends paid,Cash flow,us-gaap,PaymentsOfDividendsCommonStock,duration,1
+Dividends paid,Cash flow,us-gaap,PaymentsOfDividends,duration,2
+Dividends paid,Cash flow,ifrs-full,DividendsPaidToEquityHoldersOfParentClassifiedAsFinancingActivities,duration,3
+Dividends paid,Cash flow,ifrs-full,DividendsPaidClassifiedAsFinancingActivities,duration,4
+Total assets,Balance sheet,us-gaap,Assets,instant,1
+Total assets,Balance sheet,ifrs-full,Assets,instant,2
+Cash,Balance sheet,us-gaap,CashAndCashEquivalentsAtCarryingValue,instant,1
+Cash,Balance sheet,ifrs-full,CashAndCashEquivalents,instant,2
+Total debt,Balance sheet,us-gaap,LongTermDebt,instant,1
+Total debt,Balance sheet,us-gaap,DebtLongtermAndShorttermCombinedAmount,instant,2
+Total debt,Balance sheet,us-gaap,LongTermDebtNoncurrent,instant,3
+Total debt,Balance sheet,ifrs-full,Borrowings,instant,4
+Total debt,Balance sheet,ifrs-full,LongtermBorrowings,instant,5
+Total debt,Balance sheet,ifrs-full,NoncurrentPortionOfNoncurrentBorrowings,instant,6
+Shareholders' equity,Balance sheet,us-gaap,StockholdersEquity,instant,1
+Shareholders' equity,Balance sheet,ifrs-full,EquityAttributableToOwnersOfParent,instant,2
+Shareholders' equity,Balance sheet,ifrs-full,Equity,instant,3

@@ -1,0 +1,5 @@
+# Power Query (M) script: GitHub otherwise detects .m files as Wolfram Language
+*.m linguist-language=powerquery
+
+# Cross-check script: a helper, kept out of the language statistics
+scripts/** linguist-detectable=false

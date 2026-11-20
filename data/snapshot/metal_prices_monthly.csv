@@ -1,0 +1,2407 @@
+month_start,metal,unit,price_usd
+1960-01-01,Gold,$/troy oz,35
+1960-01-01,Copper,$/mt,715
+1960-01-01,Silver,$/troy oz,0.9
+1960-02-01,Gold,$/troy oz,35
+1960-02-01,Copper,$/mt,728
+1960-02-01,Silver,$/troy oz,0.9
+1960-03-01,Gold,$/troy oz,35
+1960-03-01,Copper,$/mt,685
+1960-03-01,Silver,$/troy oz,0.9
+1960-04-01,Gold,$/troy oz,35
+1960-04-01,Copper,$/mt,723
+1960-04-01,Silver,$/troy oz,0.9
+1960-05-01,Gold,$/troy oz,35
+1960-05-01,Copper,$/mt,685
+1960-05-01,Silver,$/troy oz,0.9
+1960-06-01,Gold,$/troy oz,35
+1960-06-01,Copper,$/mt,692
+1960-06-01,Silver,$/troy oz,0.9
+1960-07-01,Gold,$/troy oz,35
+1960-07-01,Copper,$/mt,702
+1960-07-01,Silver,$/troy oz,0.9
+1960-08-01,Gold,$/troy oz,35
+1960-08-01,Copper,$/mt,676
+1960-08-01,Silver,$/troy oz,0.9
+1960-09-01,Gold,$/troy oz,35
+1960-09-01,Copper,$/mt,647
+1960-09-01,Silver,$/troy oz,0.9
+1960-10-01,Gold,$/troy oz,35
+1960-10-01,Copper,$/mt,613
+1960-10-01,Silver,$/troy oz,0.9
+1960-11-01,Gold,$/troy oz,35
+1960-11-01,Copper,$/mt,642
+1960-11-01,Silver,$/troy oz,0.9
+1960-12-01,Gold,$/troy oz,35
+1960-12-01,Copper,$/mt,637
+1960-12-01,Silver,$/troy oz,0.9
+1961-01-01,Gold,$/troy oz,35
+1961-01-01,Copper,$/mt,607
+1961-01-01,Silver,$/troy oz,0.9
+1961-02-01,Gold,$/troy oz,35
+1961-02-01,Copper,$/mt,617
+1961-02-01,Silver,$/troy oz,0.9
+1961-03-01,Gold,$/troy oz,35
+1961-03-01,Copper,$/mt,621
+1961-03-01,Silver,$/troy oz,0.9
+1961-04-01,Gold,$/troy oz,35
+1961-04-01,Copper,$/mt,632
+1961-04-01,Silver,$/troy oz,0.9
+1961-05-01,Gold,$/troy oz,35
+1961-05-01,Copper,$/mt,668
+1961-05-01,Silver,$/troy oz,0.9
+1961-06-01,Gold,$/troy oz,35
+1961-06-01,Copper,$/mt,652
+1961-06-01,Silver,$/troy oz,0.9
+1961-07-01,Gold,$/troy oz,35
+1961-07-01,Copper,$/mt,633
+1961-07-01,Silver,$/troy oz,0.9
+1961-08-01,Gold,$/troy oz,35
+1961-08-01,Copper,$/mt,636
+1961-08-01,Silver,$/troy oz,0.9
+1961-09-01,Gold,$/troy oz,35
+1961-09-01,Copper,$/mt,633
+1961-09-01,Silver,$/troy oz,0.9
+1961-10-01,Gold,$/troy oz,35
+1961-10-01,Copper,$/mt,630
+1961-10-01,Silver,$/troy oz,0.9
+1961-11-01,Gold,$/troy oz,35
+1961-11-01,Copper,$/mt,632
+1961-11-01,Silver,$/troy oz,0.9
+1961-12-01,Gold,$/troy oz,35
+1961-12-01,Copper,$/mt,635
+1961-12-01,Silver,$/troy oz,1
+1962-01-01,Gold,$/troy oz,35
+1962-01-01,Copper,$/mt,635
+1962-01-01,Silver,$/troy oz,1
+1962-02-01,Gold,$/troy oz,35
+1962-02-01,Copper,$/mt,648
+1962-02-01,Silver,$/troy oz,1
+1962-03-01,Gold,$/troy oz,35
+1962-03-01,Copper,$/mt,648
+1962-03-01,Silver,$/troy oz,1
+1962-04-01,Gold,$/troy oz,35
+1962-04-01,Copper,$/mt,646
+1962-04-01,Silver,$/troy oz,1
+1962-05-01,Gold,$/troy oz,35
+1962-05-01,Copper,$/mt,646
+1962-05-01,Silver,$/troy oz,1
+1962-06-01,Gold,$/troy oz,35
+1962-06-01,Copper,$/mt,646
+1962-06-01,Silver,$/troy oz,1
+1962-07-01,Gold,$/troy oz,35
+1962-07-01,Copper,$/mt,646
+1962-07-01,Silver,$/troy oz,1
+1962-08-01,Gold,$/troy oz,35
+1962-08-01,Copper,$/mt,646
+1962-08-01,Silver,$/troy oz,1.1
+1962-09-01,Gold,$/troy oz,35
+1962-09-01,Copper,$/mt,646
+1962-09-01,Silver,$/troy oz,1.2
+1962-10-01,Gold,$/troy oz,35
+1962-10-01,Copper,$/mt,646
+1962-10-01,Silver,$/troy oz,1.2
+1962-11-01,Gold,$/troy oz,35
+1962-11-01,Copper,$/mt,646
+1962-11-01,Silver,$/troy oz,1.2
+1962-12-01,Gold,$/troy oz,35
+1962-12-01,Copper,$/mt,646
+1962-12-01,Silver,$/troy oz,1.2
+1963-01-01,Gold,$/troy oz,35
+1963-01-01,Copper,$/mt,646
+1963-01-01,Silver,$/troy oz,1.2
+1963-02-01,Gold,$/troy oz,35
+1963-02-01,Copper,$/mt,646
+1963-02-01,Silver,$/troy oz,1.3
+1963-03-01,Gold,$/troy oz,35
+1963-03-01,Copper,$/mt,646
+1963-03-01,Silver,$/troy oz,1.3
+1963-04-01,Gold,$/troy oz,35
+1963-04-01,Copper,$/mt,646
+1963-04-01,Silver,$/troy oz,1.3
+1963-05-01,Gold,$/troy oz,35
+1963-05-01,Copper,$/mt,646
+1963-05-01,Silver,$/troy oz,1.3
+1963-06-01,Gold,$/troy oz,35
+1963-06-01,Copper,$/mt,646
+1963-06-01,Silver,$/troy oz,1.3
+1963-07-01,Gold,$/troy oz,35
+1963-07-01,Copper,$/mt,646
+1963-07-01,Silver,$/troy oz,1.3
+1963-08-01,Gold,$/troy oz,35
+1963-08-01,Copper,$/mt,646
+1963-08-01,Silver,$/troy oz,1.3
+1963-09-01,Gold,$/troy oz,35
+1963-09-01,Copper,$/mt,646
+1963-09-01,Silver,$/troy oz,1.3
+1963-10-01,Gold,$/troy oz,35
+1963-10-01,Copper,$/mt,646
+1963-10-01,Silver,$/troy oz,1.3
+1963-11-01,Gold,$/troy oz,35
+1963-11-01,Copper,$/mt,646
+1963-11-01,Silver,$/troy oz,1.3
+1963-12-01,Gold,$/troy oz,35
+1963-12-01,Copper,$/mt,650
+1963-12-01,Silver,$/troy oz,1.3
+1964-01-01,Gold,$/troy oz,35
+1964-01-01,Copper,$/mt,656
+1964-01-01,Silver,$/troy oz,1.3
+1964-02-01,Gold,$/troy oz,35
+1964-02-01,Copper,$/mt,694
+1964-02-01,Silver,$/troy oz,1.3
+1964-03-01,Gold,$/troy oz,35
+1964-03-01,Copper,$/mt,745
+1964-03-01,Silver,$/troy oz,1.3
+1964-04-01,Gold,$/troy oz,35
+1964-04-01,Copper,$/mt,862
+1964-04-01,Silver,$/troy oz,1.3
+1964-05-01,Gold,$/troy oz,35
+1964-05-01,Copper,$/mt,828
+1964-05-01,Silver,$/troy oz,1.3
+1964-06-01,Gold,$/troy oz,35
+1964-06-01,Copper,$/mt,808
+1964-06-01,Silver,$/troy oz,1.3
+1964-07-01,Gold,$/troy oz,35
+1964-07-01,Copper,$/mt,855
+1964-07-01,Silver,$/troy oz,1.3
+1964-08-01,Gold,$/troy oz,35
+1964-08-01,Copper,$/mt,999
+1964-08-01,Silver,$/troy oz,1.3
+1964-09-01,Gold,$/troy oz,35
+1964-09-01,Copper,$/mt,1162
+1964-09-01,Silver,$/troy oz,1.3
+1964-10-01,Gold,$/troy oz,35
+1964-10-01,Copper,$/mt,1358
+1964-10-01,Silver,$/troy oz,1.3
+1964-11-01,Gold,$/troy oz,35
+1964-11-01,Copper,$/mt,1400
+1964-11-01,Silver,$/troy oz,1.3
+1964-12-01,Gold,$/troy oz,35
+1964-12-01,Copper,$/mt,1269
+1964-12-01,Silver,$/troy oz,1.3
+1965-01-01,Gold,$/troy oz,35
+1965-01-01,Copper,$/mt,1001
+1965-01-01,Silver,$/troy oz,1.3
+1965-02-01,Gold,$/troy oz,35
+1965-02-01,Copper,$/mt,1180
+1965-02-01,Silver,$/troy oz,1.3
+1965-03-01,Gold,$/troy oz,35
+1965-03-01,Copper,$/mt,1237
+1965-03-01,Silver,$/troy oz,1.3
+1965-04-01,Gold,$/troy oz,35
+1965-04-01,Copper,$/mt,1348
+1965-04-01,Silver,$/troy oz,1.3
+1965-05-01,Gold,$/troy oz,35
+1965-05-01,Copper,$/mt,1379
+1965-05-01,Silver,$/troy oz,1.3
+1965-06-01,Gold,$/troy oz,35
+1965-06-01,Copper,$/mt,1309
+1965-06-01,Silver,$/troy oz,1.3
+1965-07-01,Gold,$/troy oz,35
+1965-07-01,Copper,$/mt,1134
+1965-07-01,Silver,$/troy oz,1.3
+1965-08-01,Gold,$/troy oz,35
+1965-08-01,Copper,$/mt,1210
+1965-08-01,Silver,$/troy oz,1.3
+1965-09-01,Gold,$/troy oz,35
+1965-09-01,Copper,$/mt,1328
+1965-09-01,Silver,$/troy oz,1.3
+1965-10-01,Gold,$/troy oz,35
+1965-10-01,Copper,$/mt,1402
+1965-10-01,Silver,$/troy oz,1.3
+1965-11-01,Gold,$/troy oz,35
+1965-11-01,Copper,$/mt,1469
+1965-11-01,Silver,$/troy oz,1.3
+1965-12-01,Gold,$/troy oz,35
+1965-12-01,Copper,$/mt,1518
+1965-12-01,Silver,$/troy oz,1.3
+1966-01-01,Gold,$/troy oz,35
+1966-01-01,Copper,$/mt,1679
+1966-01-01,Silver,$/troy oz,1.3
+1966-02-01,Gold,$/troy oz,35
+1966-02-01,Copper,$/mt,1874
+1966-02-01,Silver,$/troy oz,1.3
+1966-03-01,Gold,$/troy oz,35
+1966-03-01,Copper,$/mt,1875
+1966-03-01,Silver,$/troy oz,1.3
+1966-04-01,Gold,$/troy oz,35
+1966-04-01,Copper,$/mt,1907
+1966-04-01,Silver,$/troy oz,1.3
+1966-05-01,Gold,$/troy oz,35
+1966-05-01,Copper,$/mt,1664
+1966-05-01,Silver,$/troy oz,1.3
+1966-06-01,Gold,$/troy oz,35
+1966-06-01,Copper,$/mt,1696
+1966-06-01,Silver,$/troy oz,1.3
+1966-07-01,Gold,$/troy oz,35
+1966-07-01,Copper,$/mt,1568
+1966-07-01,Silver,$/troy oz,1.3
+1966-08-01,Gold,$/troy oz,35
+1966-08-01,Copper,$/mt,1195
+1966-08-01,Silver,$/troy oz,1.3
+1966-09-01,Gold,$/troy oz,35
+1966-09-01,Copper,$/mt,1128
+1966-09-01,Silver,$/troy oz,1.3
+1966-10-01,Gold,$/troy oz,35
+1966-10-01,Copper,$/mt,1275
+1966-10-01,Silver,$/troy oz,1.3
+1966-11-01,Gold,$/troy oz,35
+1966-11-01,Copper,$/mt,1302
+1966-11-01,Silver,$/troy oz,1.3
+1966-12-01,Gold,$/troy oz,35
+1966-12-01,Copper,$/mt,1215
+1966-12-01,Silver,$/troy oz,1.3
+1967-01-01,Gold,$/troy oz,35
+1967-01-01,Copper,$/mt,1244
+1967-01-01,Silver,$/troy oz,1.3
+1967-02-01,Gold,$/troy oz,35
+1967-02-01,Copper,$/mt,1220
+1967-02-01,Silver,$/troy oz,1.3
+1967-03-01,Gold,$/troy oz,35
+1967-03-01,Copper,$/mt,1098
+1967-03-01,Silver,$/troy oz,1.3
+1967-04-01,Gold,$/troy oz,35
+1967-04-01,Copper,$/mt,995
+1967-04-01,Silver,$/troy oz,1.3
+1967-05-01,Gold,$/troy oz,35
+1967-05-01,Copper,$/mt,1036
+1967-05-01,Silver,$/troy oz,1.3
+1967-06-01,Gold,$/troy oz,35
+1967-06-01,Copper,$/mt,1015
+1967-06-01,Silver,$/troy oz,1.3
+1967-07-01,Gold,$/troy oz,35
+1967-07-01,Copper,$/mt,997
+1967-07-01,Silver,$/troy oz,1.6
+1967-08-01,Gold,$/troy oz,35
+1967-08-01,Copper,$/mt,1045
+1967-08-01,Silver,$/troy oz,1.7
+1967-09-01,Gold,$/troy oz,35
+1967-09-01,Copper,$/mt,1060
+1967-09-01,Silver,$/troy oz,1.7
+1967-10-01,Gold,$/troy oz,35
+1967-10-01,Copper,$/mt,1138
+1967-10-01,Silver,$/troy oz,1.8
+1967-11-01,Gold,$/troy oz,35
+1967-11-01,Copper,$/mt,1444
+1967-11-01,Silver,$/troy oz,2
+1967-12-01,Gold,$/troy oz,35
+1967-12-01,Copper,$/mt,1324
+1967-12-01,Silver,$/troy oz,2.1
+1968-01-01,Gold,$/troy oz,36
+1968-01-01,Copper,$/mt,1409
+1968-01-01,Silver,$/troy oz,2
+1968-02-01,Gold,$/troy oz,36
+1968-02-01,Copper,$/mt,1720
+1968-02-01,Silver,$/troy oz,1.9
+1968-03-01,Gold,$/troy oz,37
+1968-03-01,Copper,$/mt,1701
+1968-03-01,Silver,$/troy oz,2.2
+1968-04-01,Gold,$/troy oz,38
+1968-04-01,Copper,$/mt,1255
+1968-04-01,Silver,$/troy oz,2.2
+1968-05-01,Gold,$/troy oz,41
+1968-05-01,Copper,$/mt,1097
+1968-05-01,Silver,$/troy oz,2.4
+1968-06-01,Gold,$/troy oz,41
+1968-06-01,Copper,$/mt,1137
+1968-06-01,Silver,$/troy oz,2.5
+1968-07-01,Gold,$/troy oz,39
+1968-07-01,Copper,$/mt,1054
+1968-07-01,Silver,$/troy oz,2.3
+1968-08-01,Gold,$/troy oz,39
+1968-08-01,Copper,$/mt,1056
+1968-08-01,Silver,$/troy oz,2.2
+1968-09-01,Gold,$/troy oz,40
+1968-09-01,Copper,$/mt,1110
+1968-09-01,Silver,$/troy oz,2.2
+1968-10-01,Gold,$/troy oz,39
+1968-10-01,Copper,$/mt,1080
+1968-10-01,Silver,$/troy oz,2
+1968-11-01,Gold,$/troy oz,40
+1968-11-01,Copper,$/mt,1100
+1968-11-01,Silver,$/troy oz,2
+1968-12-01,Gold,$/troy oz,41
+1968-12-01,Copper,$/mt,1185
+1968-12-01,Silver,$/troy oz,2
+1969-01-01,Gold,$/troy oz,42
+1969-01-01,Copper,$/mt,1256
+1969-01-01,Silver,$/troy oz,2
+1969-02-01,Gold,$/troy oz,43
+1969-02-01,Copper,$/mt,1285
+1969-02-01,Silver,$/troy oz,1.8
+1969-03-01,Gold,$/troy oz,43
+1969-03-01,Copper,$/mt,1278
+1969-03-01,Silver,$/troy oz,1.8
+1969-04-01,Gold,$/troy oz,43
+1969-04-01,Copper,$/mt,1388
+1969-04-01,Silver,$/troy oz,1.8
+1969-05-01,Gold,$/troy oz,43
+1969-05-01,Copper,$/mt,1392
+1969-05-01,Silver,$/troy oz,1.8
+1969-06-01,Gold,$/troy oz,41
+1969-06-01,Copper,$/mt,1483
+1969-06-01,Silver,$/troy oz,1.6
+1969-07-01,Gold,$/troy oz,42
+1969-07-01,Copper,$/mt,1454
+1969-07-01,Silver,$/troy oz,1.6
+1969-08-01,Gold,$/troy oz,41
+1969-08-01,Copper,$/mt,1607
+1969-08-01,Silver,$/troy oz,1.7
+1969-09-01,Gold,$/troy oz,41
+1969-09-01,Copper,$/mt,1579
+1969-09-01,Silver,$/troy oz,1.8
+1969-10-01,Gold,$/troy oz,40
+1969-10-01,Copper,$/mt,1554
+1969-10-01,Silver,$/troy oz,1.9
+1969-11-01,Gold,$/troy oz,37
+1969-11-01,Copper,$/mt,1631
+1969-11-01,Silver,$/troy oz,1.9
+1969-12-01,Gold,$/troy oz,35
+1969-12-01,Copper,$/mt,1700
+1969-12-01,Silver,$/troy oz,1.8
+1970-01-01,Gold,$/troy oz,35
+1970-01-01,Copper,$/mt,1626
+1970-01-01,Silver,$/troy oz,1.9
+1970-02-01,Gold,$/troy oz,35
+1970-02-01,Copper,$/mt,1657
+1970-02-01,Silver,$/troy oz,1.9
+1970-03-01,Gold,$/troy oz,35
+1970-03-01,Copper,$/mt,1754
+1970-03-01,Silver,$/troy oz,1.9
+1970-04-01,Gold,$/troy oz,36
+1970-04-01,Copper,$/mt,1742
+1970-04-01,Silver,$/troy oz,1.9
+1970-05-01,Gold,$/troy oz,36
+1970-05-01,Copper,$/mt,1598
+1970-05-01,Silver,$/troy oz,1.7
+1970-06-01,Gold,$/troy oz,35
+1970-06-01,Copper,$/mt,1458
+1970-06-01,Silver,$/troy oz,1.6
+1970-07-01,Gold,$/troy oz,35
+1970-07-01,Copper,$/mt,1367
+1970-07-01,Silver,$/troy oz,1.7
+1970-08-01,Gold,$/troy oz,35
+1970-08-01,Copper,$/mt,1267
+1970-08-01,Silver,$/troy oz,1.8
+1970-09-01,Gold,$/troy oz,36
+1970-09-01,Copper,$/mt,1247
+1970-09-01,Silver,$/troy oz,1.8
+1970-10-01,Gold,$/troy oz,38
+1970-10-01,Copper,$/mt,1142
+1970-10-01,Silver,$/troy oz,1.7
+1970-11-01,Gold,$/troy oz,37
+1970-11-01,Copper,$/mt,1085
+1970-11-01,Silver,$/troy oz,1.8
+1970-12-01,Gold,$/troy oz,37
+1970-12-01,Copper,$/mt,1046
+1970-12-01,Silver,$/troy oz,1.6
+1971-01-01,Gold,$/troy oz,38
+1971-01-01,Copper,$/mt,1010
+1971-01-01,Silver,$/troy oz,1.6
+1971-02-01,Gold,$/troy oz,39
+1971-02-01,Copper,$/mt,1020
+1971-02-01,Silver,$/troy oz,1.6
+1971-03-01,Gold,$/troy oz,39
+1971-03-01,Copper,$/mt,1144
+1971-03-01,Silver,$/troy oz,1.7
+1971-04-01,Gold,$/troy oz,39
+1971-04-01,Copper,$/mt,1252
+1971-04-01,Silver,$/troy oz,1.7
+1971-05-01,Gold,$/troy oz,41
+1971-05-01,Copper,$/mt,1114
+1971-05-01,Silver,$/troy oz,1.7
+1971-06-01,Gold,$/troy oz,40
+1971-06-01,Copper,$/mt,1074
+1971-06-01,Silver,$/troy oz,1.6
+1971-07-01,Gold,$/troy oz,41
+1971-07-01,Copper,$/mt,1115
+1971-07-01,Silver,$/troy oz,1.6
+1971-08-01,Gold,$/troy oz,43
+1971-08-01,Copper,$/mt,1098
+1971-08-01,Silver,$/troy oz,1.6
+1971-09-01,Gold,$/troy oz,42
+1971-09-01,Copper,$/mt,1056
+1971-09-01,Silver,$/troy oz,1.4
+1971-10-01,Gold,$/troy oz,43
+1971-10-01,Copper,$/mt,1041
+1971-10-01,Silver,$/troy oz,1.3
+1971-11-01,Gold,$/troy oz,43
+1971-11-01,Copper,$/mt,1014
+1971-11-01,Silver,$/troy oz,1.3
+1971-12-01,Gold,$/troy oz,43
+1971-12-01,Copper,$/mt,1038
+1971-12-01,Silver,$/troy oz,1.4
+1972-01-01,Gold,$/troy oz,46
+1972-01-01,Copper,$/mt,1078
+1972-01-01,Silver,$/troy oz,1.5
+1972-02-01,Gold,$/troy oz,48
+1972-02-01,Copper,$/mt,1112
+1972-02-01,Silver,$/troy oz,1.5
+1972-03-01,Gold,$/troy oz,48
+1972-03-01,Copper,$/mt,1108
+1972-03-01,Silver,$/troy oz,1.5
+1972-04-01,Gold,$/troy oz,49
+1972-04-01,Copper,$/mt,1133
+1972-04-01,Silver,$/troy oz,1.6
+1972-05-01,Gold,$/troy oz,55
+1972-05-01,Copper,$/mt,1106
+1972-05-01,Silver,$/troy oz,1.6
+1972-06-01,Gold,$/troy oz,62
+1972-06-01,Copper,$/mt,1063
+1972-06-01,Silver,$/troy oz,1.6
+1972-07-01,Gold,$/troy oz,66
+1972-07-01,Copper,$/mt,1035
+1972-07-01,Silver,$/troy oz,1.7
+1972-08-01,Gold,$/troy oz,67
+1972-08-01,Copper,$/mt,1047
+1972-08-01,Silver,$/troy oz,1.8
+1972-09-01,Gold,$/troy oz,65
+1972-09-01,Copper,$/mt,1061
+1972-09-01,Silver,$/troy oz,1.8
+1972-10-01,Gold,$/troy oz,65
+1972-10-01,Copper,$/mt,918
+1972-10-01,Silver,$/troy oz,1.8
+1972-11-01,Gold,$/troy oz,63
+1972-11-01,Copper,$/mt,1007
+1972-11-01,Silver,$/troy oz,1.8
+1972-12-01,Gold,$/troy oz,64
+1972-12-01,Copper,$/mt,1024
+1972-12-01,Silver,$/troy oz,2
+1973-01-01,Gold,$/troy oz,65
+1973-01-01,Copper,$/mt,1119
+1973-01-01,Silver,$/troy oz,2
+1973-02-01,Gold,$/troy oz,74
+1973-02-01,Copper,$/mt,1244
+1973-02-01,Silver,$/troy oz,2.2
+1973-03-01,Gold,$/troy oz,84
+1973-03-01,Copper,$/mt,1510
+1973-03-01,Silver,$/troy oz,2.3
+1973-04-01,Gold,$/troy oz,91
+1973-04-01,Copper,$/mt,1588
+1973-04-01,Silver,$/troy oz,2.2
+1973-05-01,Gold,$/troy oz,102
+1973-05-01,Copper,$/mt,1552
+1973-05-01,Silver,$/troy oz,2.4
+1973-06-01,Gold,$/troy oz,120
+1973-06-01,Copper,$/mt,1749
+1973-06-01,Silver,$/troy oz,2.6
+1973-07-01,Gold,$/troy oz,120
+1973-07-01,Copper,$/mt,2021
+1973-07-01,Silver,$/troy oz,2.7
+1973-08-01,Gold,$/troy oz,107
+1973-08-01,Copper,$/mt,2123
+1973-08-01,Silver,$/troy oz,2.6
+1973-09-01,Gold,$/troy oz,103
+1973-09-01,Copper,$/mt,1936
+1973-09-01,Silver,$/troy oz,2.7
+1973-10-01,Gold,$/troy oz,100
+1973-10-01,Copper,$/mt,2065
+1973-10-01,Silver,$/troy oz,2.9
+1973-11-01,Gold,$/troy oz,95
+1973-11-01,Copper,$/mt,2273
+1973-11-01,Silver,$/troy oz,2.9
+1973-12-01,Gold,$/troy oz,107
+1973-12-01,Copper,$/mt,2244
+1973-12-01,Silver,$/troy oz,3.1
+1974-01-01,Gold,$/troy oz,129
+1974-01-01,Copper,$/mt,2032
+1974-01-01,Silver,$/troy oz,3.6
+1974-02-01,Gold,$/troy oz,150
+1974-02-01,Copper,$/mt,2292
+1974-02-01,Silver,$/troy oz,5.4
+1974-03-01,Gold,$/troy oz,168
+1974-03-01,Copper,$/mt,2743
+1974-03-01,Silver,$/troy oz,5.3
+1974-04-01,Gold,$/troy oz,172
+1974-04-01,Copper,$/mt,3032
+1974-04-01,Silver,$/troy oz,5
+1974-05-01,Gold,$/troy oz,163
+1974-05-01,Copper,$/mt,2876
+1974-05-01,Silver,$/troy oz,5.4
+1974-06-01,Gold,$/troy oz,154
+1974-06-01,Copper,$/mt,2440
+1974-06-01,Silver,$/troy oz,4.9
+1974-07-01,Gold,$/troy oz,143
+1974-07-01,Copper,$/mt,1919
+1974-07-01,Silver,$/troy oz,4.4
+1974-08-01,Gold,$/troy oz,155
+1974-08-01,Copper,$/mt,1803
+1974-08-01,Silver,$/troy oz,4.4
+1974-09-01,Gold,$/troy oz,152
+1974-09-01,Copper,$/mt,1461
+1974-09-01,Silver,$/troy oz,4
+1974-10-01,Gold,$/troy oz,159
+1974-10-01,Copper,$/mt,1399
+1974-10-01,Silver,$/troy oz,4.8
+1974-11-01,Gold,$/troy oz,182
+1974-11-01,Copper,$/mt,1417
+1974-11-01,Silver,$/troy oz,4.7
+1974-12-01,Gold,$/troy oz,184
+1974-12-01,Copper,$/mt,1289
+1974-12-01,Silver,$/troy oz,4.4
+1975-01-01,Gold,$/troy oz,176
+1975-01-01,Copper,$/mt,1211
+1975-01-01,Silver,$/troy oz,4.2
+1975-02-01,Gold,$/troy oz,180
+1975-02-01,Copper,$/mt,1267
+1975-02-01,Silver,$/troy oz,4.4
+1975-03-01,Gold,$/troy oz,178
+1975-03-01,Copper,$/mt,1344
+1975-03-01,Silver,$/troy oz,4.3
+1975-04-01,Gold,$/troy oz,170
+1975-04-01,Copper,$/mt,1329
+1975-04-01,Silver,$/troy oz,4.2
+1975-05-01,Gold,$/troy oz,167
+1975-05-01,Copper,$/mt,1254
+1975-05-01,Silver,$/troy oz,4.5
+1975-06-01,Gold,$/troy oz,164
+1975-06-01,Copper,$/mt,1193
+1975-06-01,Silver,$/troy oz,4.5
+1975-07-01,Gold,$/troy oz,165
+1975-07-01,Copper,$/mt,1222
+1975-07-01,Silver,$/troy oz,4.7
+1975-08-01,Gold,$/troy oz,163
+1975-08-01,Copper,$/mt,1277
+1975-08-01,Silver,$/troy oz,4.9
+1975-09-01,Gold,$/troy oz,144
+1975-09-01,Copper,$/mt,1210
+1975-09-01,Silver,$/troy oz,4.5
+1975-10-01,Gold,$/troy oz,143
+1975-10-01,Copper,$/mt,1179
+1975-10-01,Silver,$/troy oz,4.3
+1975-11-01,Gold,$/troy oz,142
+1975-11-01,Copper,$/mt,1180
+1975-11-01,Silver,$/troy oz,4.3
+1975-12-01,Gold,$/troy oz,139
+1975-12-01,Copper,$/mt,1151
+1975-12-01,Silver,$/troy oz,4.1
+1976-01-01,Gold,$/troy oz,131
+1976-01-01,Copper,$/mt,1193
+1976-01-01,Silver,$/troy oz,4.1
+1976-02-01,Gold,$/troy oz,131
+1976-02-01,Copper,$/mt,1219
+1976-02-01,Silver,$/troy oz,4.1
+1976-03-01,Gold,$/troy oz,133
+1976-03-01,Copper,$/mt,1329
+1976-03-01,Silver,$/troy oz,4.2
+1976-04-01,Gold,$/troy oz,128
+1976-04-01,Copper,$/mt,1510
+1976-04-01,Silver,$/troy oz,4.4
+1976-05-01,Gold,$/troy oz,127
+1976-05-01,Copper,$/mt,1512
+1976-05-01,Silver,$/troy oz,4.5
+1976-06-01,Gold,$/troy oz,126
+1976-06-01,Copper,$/mt,1550
+1976-06-01,Silver,$/troy oz,4.8
+1976-07-01,Gold,$/troy oz,118
+1976-07-01,Copper,$/mt,1647
+1976-07-01,Silver,$/troy oz,4.8
+1976-08-01,Gold,$/troy oz,110
+1976-08-01,Copper,$/mt,1539
+1976-08-01,Silver,$/troy oz,4.3
+1976-09-01,Gold,$/troy oz,114
+1976-09-01,Copper,$/mt,1459
+1976-09-01,Silver,$/troy oz,4.3
+1976-10-01,Gold,$/troy oz,116
+1976-10-01,Copper,$/mt,1285
+1976-10-01,Silver,$/troy oz,4.2
+1976-11-01,Gold,$/troy oz,130
+1976-11-01,Copper,$/mt,1279
+1976-11-01,Silver,$/troy oz,4.4
+1976-12-01,Gold,$/troy oz,134
+1976-12-01,Copper,$/mt,1287
+1976-12-01,Silver,$/troy oz,4.4
+1977-01-01,Gold,$/troy oz,132
+1977-01-01,Copper,$/mt,1396
+1977-01-01,Silver,$/troy oz,4.4
+1977-02-01,Gold,$/troy oz,136
+1977-02-01,Copper,$/mt,1426
+1977-02-01,Silver,$/troy oz,4.5
+1977-03-01,Gold,$/troy oz,148
+1977-03-01,Copper,$/mt,1515
+1977-03-01,Silver,$/troy oz,4.9
+1977-04-01,Gold,$/troy oz,149
+1977-04-01,Copper,$/mt,1429
+1977-04-01,Silver,$/troy oz,4.8
+1977-05-01,Gold,$/troy oz,147
+1977-05-01,Copper,$/mt,1371
+1977-05-01,Silver,$/troy oz,4.7
+1977-06-01,Gold,$/troy oz,141
+1977-06-01,Copper,$/mt,1312
+1977-06-01,Silver,$/troy oz,4.5
+1977-07-01,Gold,$/troy oz,143
+1977-07-01,Copper,$/mt,1248
+1977-07-01,Silver,$/troy oz,4.5
+1977-08-01,Gold,$/troy oz,145
+1977-08-01,Copper,$/mt,1160
+1977-08-01,Silver,$/troy oz,4.5
+1977-09-01,Gold,$/troy oz,150
+1977-09-01,Copper,$/mt,1195
+1977-09-01,Silver,$/troy oz,4.5
+1977-10-01,Gold,$/troy oz,159
+1977-10-01,Copper,$/mt,1210
+1977-10-01,Silver,$/troy oz,4.8
+1977-11-01,Gold,$/troy oz,162
+1977-11-01,Copper,$/mt,1182
+1977-11-01,Silver,$/troy oz,4.8
+1977-12-01,Gold,$/troy oz,160
+1977-12-01,Copper,$/mt,1261
+1977-12-01,Silver,$/troy oz,4.7
+1978-01-01,Gold,$/troy oz,173
+1978-01-01,Copper,$/mt,1261
+1978-01-01,Silver,$/troy oz,4.9
+1978-02-01,Gold,$/troy oz,178
+1978-02-01,Copper,$/mt,1217
+1978-02-01,Silver,$/troy oz,5
+1978-03-01,Gold,$/troy oz,184
+1978-03-01,Copper,$/mt,1254
+1978-03-01,Silver,$/troy oz,5.3
+1978-04-01,Gold,$/troy oz,175
+1978-04-01,Copper,$/mt,1285
+1978-04-01,Silver,$/troy oz,5.2
+1978-05-01,Gold,$/troy oz,176
+1978-05-01,Copper,$/mt,1303
+1978-05-01,Silver,$/troy oz,5.1
+1978-06-01,Gold,$/troy oz,184
+1978-06-01,Copper,$/mt,1333
+1978-06-01,Silver,$/troy oz,5.3
+1978-07-01,Gold,$/troy oz,189
+1978-07-01,Copper,$/mt,1337
+1978-07-01,Silver,$/troy oz,5.4
+1978-08-01,Gold,$/troy oz,206
+1978-08-01,Copper,$/mt,1426
+1978-08-01,Silver,$/troy oz,5.5
+1978-09-01,Gold,$/troy oz,212
+1978-09-01,Copper,$/mt,1442
+1978-09-01,Silver,$/troy oz,5.6
+1978-10-01,Gold,$/troy oz,227
+1978-10-01,Copper,$/mt,1506
+1978-10-01,Silver,$/troy oz,5.9
+1978-11-01,Gold,$/troy oz,206
+1978-11-01,Copper,$/mt,1481
+1978-11-01,Silver,$/troy oz,5.9
+1978-12-01,Gold,$/troy oz,208
+1978-12-01,Copper,$/mt,1533
+1978-12-01,Silver,$/troy oz,5.9
+1979-01-01,Gold,$/troy oz,227
+1979-01-01,Copper,$/mt,1659
+1979-01-01,Silver,$/troy oz,6.2
+1979-02-01,Gold,$/troy oz,246
+1979-02-01,Copper,$/mt,1944
+1979-02-01,Silver,$/troy oz,7.3
+1979-03-01,Gold,$/troy oz,242
+1979-03-01,Copper,$/mt,2050
+1979-03-01,Silver,$/troy oz,7.4
+1979-04-01,Gold,$/troy oz,239
+1979-04-01,Copper,$/mt,2100
+1979-04-01,Silver,$/troy oz,7.4
+1979-05-01,Gold,$/troy oz,258
+1979-05-01,Copper,$/mt,1926
+1979-05-01,Silver,$/troy oz,8.4
+1979-06-01,Gold,$/troy oz,279
+1979-06-01,Copper,$/mt,1878
+1979-06-01,Silver,$/troy oz,8.6
+1979-07-01,Gold,$/troy oz,295
+1979-07-01,Copper,$/mt,1814
+1979-07-01,Silver,$/troy oz,9.1
+1979-08-01,Gold,$/troy oz,301
+1979-08-01,Copper,$/mt,1976
+1979-08-01,Silver,$/troy oz,9.3
+1979-09-01,Gold,$/troy oz,355
+1979-09-01,Copper,$/mt,2096
+1979-09-01,Silver,$/troy oz,13.8
+1979-10-01,Gold,$/troy oz,392
+1979-10-01,Copper,$/mt,2076
+1979-10-01,Silver,$/troy oz,16.6
+1979-11-01,Gold,$/troy oz,392
+1979-11-01,Copper,$/mt,2090
+1979-11-01,Silver,$/troy oz,16.7
+1979-12-01,Gold,$/troy oz,455
+1979-12-01,Copper,$/mt,2214
+1979-12-01,Silver,$/troy oz,22.5
+1980-01-01,Gold,$/troy oz,675
+1980-01-01,Copper,$/mt,2601
+1980-01-01,Silver,$/troy oz,38.9
+1980-02-01,Gold,$/troy oz,665
+1980-02-01,Copper,$/mt,2918
+1980-02-01,Silver,$/troy oz,35.2
+1980-03-01,Gold,$/troy oz,554
+1980-03-01,Copper,$/mt,2306
+1980-03-01,Silver,$/troy oz,24.7
+1980-04-01,Gold,$/troy oz,517
+1980-04-01,Copper,$/mt,2070
+1980-04-01,Silver,$/troy oz,14.9
+1980-05-01,Gold,$/troy oz,514
+1980-05-01,Copper,$/mt,2037
+1980-05-01,Silver,$/troy oz,12.7
+1980-06-01,Gold,$/troy oz,601
+1980-06-01,Copper,$/mt,2006
+1980-06-01,Silver,$/troy oz,15.8
+1980-07-01,Gold,$/troy oz,643
+1980-07-01,Copper,$/mt,2176
+1980-07-01,Silver,$/troy oz,16.3
+1980-08-01,Gold,$/troy oz,627
+1980-08-01,Copper,$/mt,2082
+1980-08-01,Silver,$/troy oz,15.9
+1980-09-01,Gold,$/troy oz,674
+1980-09-01,Copper,$/mt,2060
+1980-09-01,Silver,$/troy oz,19.9
+1980-10-01,Gold,$/troy oz,661
+1980-10-01,Copper,$/mt,2040
+1980-10-01,Silver,$/troy oz,20.2
+1980-11-01,Gold,$/troy oz,625
+1980-11-01,Copper,$/mt,2010
+1980-11-01,Silver,$/troy oz,18.6
+1980-12-01,Gold,$/troy oz,538
+1980-12-01,Copper,$/mt,1879
+1980-12-01,Silver,$/troy oz,16.5
+1981-01-01,Gold,$/troy oz,557
+1981-01-01,Copper,$/mt,1869
+1981-01-01,Silver,$/troy oz,14.8
+1981-02-01,Gold,$/troy oz,500
+1981-02-01,Copper,$/mt,1801
+1981-02-01,Silver,$/troy oz,13.1
+1981-03-01,Gold,$/troy oz,499
+1981-03-01,Copper,$/mt,1818
+1981-03-01,Silver,$/troy oz,12.3
+1981-04-01,Gold,$/troy oz,496
+1981-04-01,Copper,$/mt,1821
+1981-04-01,Silver,$/troy oz,11.5
+1981-05-01,Gold,$/troy oz,480
+1981-05-01,Copper,$/mt,1742
+1981-05-01,Silver,$/troy oz,10.9
+1981-06-01,Gold,$/troy oz,461
+1981-06-01,Copper,$/mt,1700
+1981-06-01,Silver,$/troy oz,10
+1981-07-01,Gold,$/troy oz,409
+1981-07-01,Copper,$/mt,1682
+1981-07-01,Silver,$/troy oz,8.6
+1981-08-01,Gold,$/troy oz,410
+1981-08-01,Copper,$/mt,1787
+1981-08-01,Silver,$/troy oz,8.9
+1981-09-01,Gold,$/troy oz,444
+1981-09-01,Copper,$/mt,1710
+1981-09-01,Silver,$/troy oz,10.1
+1981-10-01,Gold,$/troy oz,438
+1981-10-01,Copper,$/mt,1666
+1981-10-01,Silver,$/troy oz,9.2
+1981-11-01,Gold,$/troy oz,413
+1981-11-01,Copper,$/mt,1651
+1981-11-01,Silver,$/troy oz,8.5
+1981-12-01,Gold,$/troy oz,410
+1981-12-01,Copper,$/mt,1655
+1981-12-01,Silver,$/troy oz,8.4
+1982-01-01,Gold,$/troy oz,384
+1982-01-01,Copper,$/mt,1611
+1982-01-01,Silver,$/troy oz,8
+1982-02-01,Gold,$/troy oz,374
+1982-02-01,Copper,$/mt,1598
+1982-02-01,Silver,$/troy oz,8.3
+1982-03-01,Gold,$/troy oz,330
+1982-03-01,Copper,$/mt,1510
+1982-03-01,Silver,$/troy oz,7.2
+1982-04-01,Gold,$/troy oz,350
+1982-04-01,Copper,$/mt,1522
+1982-04-01,Silver,$/troy oz,7.3
+1982-05-01,Gold,$/troy oz,334
+1982-05-01,Copper,$/mt,1528
+1982-05-01,Silver,$/troy oz,6.7
+1982-06-01,Gold,$/troy oz,315
+1982-06-01,Copper,$/mt,1300
+1982-06-01,Silver,$/troy oz,5.6
+1982-07-01,Gold,$/troy oz,339
+1982-07-01,Copper,$/mt,1441
+1982-07-01,Silver,$/troy oz,6.5
+1982-08-01,Gold,$/troy oz,364
+1982-08-01,Copper,$/mt,1452
+1982-08-01,Silver,$/troy oz,7.1
+1982-09-01,Gold,$/troy oz,437
+1982-09-01,Copper,$/mt,1427
+1982-09-01,Silver,$/troy oz,8.8
+1982-10-01,Gold,$/troy oz,422
+1982-10-01,Copper,$/mt,1461
+1982-10-01,Silver,$/troy oz,9.4
+1982-11-01,Gold,$/troy oz,415
+1982-11-01,Copper,$/mt,1444
+1982-11-01,Silver,$/troy oz,9.8
+1982-12-01,Gold,$/troy oz,445
+1982-12-01,Copper,$/mt,1473
+1982-12-01,Silver,$/troy oz,10.6
+1983-01-01,Gold,$/troy oz,481
+1983-01-01,Copper,$/mt,1572
+1983-01-01,Silver,$/troy oz,12.3
+1983-02-01,Gold,$/troy oz,491
+1983-02-01,Copper,$/mt,1647
+1983-02-01,Silver,$/troy oz,14
+1983-03-01,Gold,$/troy oz,420
+1983-03-01,Copper,$/mt,1598
+1983-03-01,Silver,$/troy oz,10.6
+1983-04-01,Gold,$/troy oz,433
+1983-04-01,Copper,$/mt,1675
+1983-04-01,Silver,$/troy oz,11.6
+1983-05-01,Gold,$/troy oz,438
+1983-05-01,Copper,$/mt,1766
+1983-05-01,Silver,$/troy oz,12.9
+1983-06-01,Gold,$/troy oz,413
+1983-06-01,Copper,$/mt,1701
+1983-06-01,Silver,$/troy oz,11.7
+1983-07-01,Gold,$/troy oz,403
+1983-07-01,Copper,$/mt,1704
+1983-07-01,Silver,$/troy oz,12
+1983-08-01,Gold,$/troy oz,416
+1983-08-01,Copper,$/mt,1640
+1983-08-01,Silver,$/troy oz,12.1
+1983-09-01,Gold,$/troy oz,412
+1983-09-01,Copper,$/mt,1561
+1983-09-01,Silver,$/troy oz,12
+1983-10-01,Gold,$/troy oz,394
+1983-10-01,Copper,$/mt,1435
+1983-10-01,Silver,$/troy oz,9.9
+1983-11-01,Gold,$/troy oz,382
+1983-11-01,Copper,$/mt,1389
+1983-11-01,Silver,$/troy oz,8.8
+1983-12-01,Gold,$/troy oz,388
+1983-12-01,Copper,$/mt,1415
+1983-12-01,Silver,$/troy oz,9.1
+1984-01-01,Gold,$/troy oz,371
+1984-01-01,Copper,$/mt,1376
+1984-01-01,Silver,$/troy oz,8.3
+1984-02-01,Gold,$/troy oz,386
+1984-02-01,Copper,$/mt,1430
+1984-02-01,Silver,$/troy oz,9.1
+1984-03-01,Gold,$/troy oz,394
+1984-03-01,Copper,$/mt,1501
+1984-03-01,Silver,$/troy oz,9.6
+1984-04-01,Gold,$/troy oz,381
+1984-04-01,Copper,$/mt,1533
+1984-04-01,Silver,$/troy oz,9.2
+1984-05-01,Gold,$/troy oz,377
+1984-05-01,Copper,$/mt,1421
+1984-05-01,Silver,$/troy oz,9
+1984-06-01,Gold,$/troy oz,378
+1984-06-01,Copper,$/mt,1367
+1984-06-01,Silver,$/troy oz,8.8
+1984-07-01,Gold,$/troy oz,348
+1984-07-01,Copper,$/mt,1331
+1984-07-01,Silver,$/troy oz,7.5
+1984-08-01,Gold,$/troy oz,348
+1984-08-01,Copper,$/mt,1338
+1984-08-01,Silver,$/troy oz,7.6
+1984-09-01,Gold,$/troy oz,340
+1984-09-01,Copper,$/mt,1294
+1984-09-01,Silver,$/troy oz,7.3
+1984-10-01,Gold,$/troy oz,341
+1984-10-01,Copper,$/mt,1273
+1984-10-01,Silver,$/troy oz,7.3
+1984-11-01,Gold,$/troy oz,342
+1984-11-01,Copper,$/mt,1345
+1984-11-01,Silver,$/troy oz,7.5
+1984-12-01,Gold,$/troy oz,320
+1984-12-01,Copper,$/mt,1321
+1984-12-01,Silver,$/troy oz,6.6
+1985-01-01,Gold,$/troy oz,303
+1985-01-01,Copper,$/mt,1359
+1985-01-01,Silver,$/troy oz,6.1
+1985-02-01,Gold,$/troy oz,299
+1985-02-01,Copper,$/mt,1389
+1985-02-01,Silver,$/troy oz,6.1
+1985-03-01,Gold,$/troy oz,314
+1985-03-01,Copper,$/mt,1390
+1985-03-01,Silver,$/troy oz,6
+1985-04-01,Gold,$/troy oz,327
+1985-04-01,Copper,$/mt,1502
+1985-04-01,Silver,$/troy oz,6.4
+1985-05-01,Gold,$/troy oz,316
+1985-05-01,Copper,$/mt,1531
+1985-05-01,Silver,$/troy oz,6.3
+1985-06-01,Gold,$/troy oz,317
+1985-06-01,Copper,$/mt,1432
+1985-06-01,Silver,$/troy oz,6.2
+1985-07-01,Gold,$/troy oz,317
+1985-07-01,Copper,$/mt,1475
+1985-07-01,Silver,$/troy oz,6
+1985-08-01,Gold,$/troy oz,330
+1985-08-01,Copper,$/mt,1420
+1985-08-01,Silver,$/troy oz,6.2
+1985-09-01,Gold,$/troy oz,323
+1985-09-01,Copper,$/mt,1366
+1985-09-01,Silver,$/troy oz,6.1
+1985-10-01,Gold,$/troy oz,326
+1985-10-01,Copper,$/mt,1385
+1985-10-01,Silver,$/troy oz,6.2
+1985-11-01,Gold,$/troy oz,322
+1985-11-01,Copper,$/mt,1370
+1985-11-01,Silver,$/troy oz,6.1
+1985-12-01,Gold,$/troy oz,322
+1985-12-01,Copper,$/mt,1391
+1985-12-01,Silver,$/troy oz,5.9
+1986-01-01,Gold,$/troy oz,347
+1986-01-01,Copper,$/mt,1418
+1986-01-01,Silver,$/troy oz,6
+1986-02-01,Gold,$/troy oz,339
+1986-02-01,Copper,$/mt,1406
+1986-02-01,Silver,$/troy oz,5.9
+1986-03-01,Gold,$/troy oz,346
+1986-03-01,Copper,$/mt,1445
+1986-03-01,Silver,$/troy oz,5.6
+1986-04-01,Gold,$/troy oz,340
+1986-04-01,Copper,$/mt,1435
+1986-04-01,Silver,$/troy oz,5.2
+1986-05-01,Gold,$/troy oz,342
+1986-05-01,Copper,$/mt,1419
+1986-05-01,Silver,$/troy oz,5.1
+1986-06-01,Gold,$/troy oz,343
+1986-06-01,Copper,$/mt,1413
+1986-06-01,Silver,$/troy oz,5.1
+1986-07-01,Gold,$/troy oz,348
+1986-07-01,Copper,$/mt,1344
+1986-07-01,Silver,$/troy oz,5
+1986-08-01,Gold,$/troy oz,377
+1986-08-01,Copper,$/mt,1303
+1986-08-01,Silver,$/troy oz,5.2
+1986-09-01,Gold,$/troy oz,418
+1986-09-01,Copper,$/mt,1347
+1986-09-01,Silver,$/troy oz,5.6
+1986-10-01,Gold,$/troy oz,424
+1986-10-01,Copper,$/mt,1317
+1986-10-01,Silver,$/troy oz,5.6
+1986-11-01,Gold,$/troy oz,398
+1986-11-01,Copper,$/mt,1303
+1986-11-01,Silver,$/troy oz,5.6
+1986-12-01,Gold,$/troy oz,391
+1986-12-01,Copper,$/mt,1336
+1986-12-01,Silver,$/troy oz,5.4
+1987-01-01,Gold,$/troy oz,408
+1987-01-01,Copper,$/mt,1346
+1987-01-01,Silver,$/troy oz,5.5
+1987-02-01,Gold,$/troy oz,401
+1987-02-01,Copper,$/mt,1380
+1987-02-01,Silver,$/troy oz,5.5
+1987-03-01,Gold,$/troy oz,409
+1987-03-01,Copper,$/mt,1466
+1987-03-01,Silver,$/troy oz,5.7
+1987-04-01,Gold,$/troy oz,438
+1987-04-01,Copper,$/mt,1484
+1987-04-01,Silver,$/troy oz,7.3
+1987-05-01,Gold,$/troy oz,460
+1987-05-01,Copper,$/mt,1520
+1987-05-01,Silver,$/troy oz,8.5
+1987-06-01,Gold,$/troy oz,450
+1987-06-01,Copper,$/mt,1572
+1987-06-01,Silver,$/troy oz,7.4
+1987-07-01,Gold,$/troy oz,451
+1987-07-01,Copper,$/mt,1695
+1987-07-01,Silver,$/troy oz,7.6
+1987-08-01,Gold,$/troy oz,461
+1987-08-01,Copper,$/mt,1756
+1987-08-01,Silver,$/troy oz,7.8
+1987-09-01,Gold,$/troy oz,460
+1987-09-01,Copper,$/mt,1811
+1987-09-01,Silver,$/troy oz,7.6
+1987-10-01,Gold,$/troy oz,465
+1987-10-01,Copper,$/mt,1967
+1987-10-01,Silver,$/troy oz,7.6
+1987-11-01,Gold,$/troy oz,468
+1987-11-01,Copper,$/mt,2524
+1987-11-01,Silver,$/troy oz,6.8
+1987-12-01,Gold,$/troy oz,486
+1987-12-01,Copper,$/mt,2869
+1987-12-01,Silver,$/troy oz,6.8
+1988-01-01,Gold,$/troy oz,477
+1988-01-01,Copper,$/mt,2663
+1988-01-01,Silver,$/troy oz,6.7
+1988-02-01,Gold,$/troy oz,442
+1988-02-01,Copper,$/mt,2330
+1988-02-01,Silver,$/troy oz,6.3
+1988-03-01,Gold,$/troy oz,444
+1988-03-01,Copper,$/mt,2359
+1988-03-01,Silver,$/troy oz,6.4
+1988-04-01,Gold,$/troy oz,452
+1988-04-01,Copper,$/mt,2286
+1988-04-01,Silver,$/troy oz,6.5
+1988-05-01,Gold,$/troy oz,451
+1988-05-01,Copper,$/mt,2448
+1988-05-01,Silver,$/troy oz,6.5
+1988-06-01,Gold,$/troy oz,451
+1988-06-01,Copper,$/mt,2540
+1988-06-01,Silver,$/troy oz,7
+1988-07-01,Gold,$/troy oz,438
+1988-07-01,Copper,$/mt,2214
+1988-07-01,Silver,$/troy oz,7
+1988-08-01,Gold,$/troy oz,431
+1988-08-01,Copper,$/mt,2201
+1988-08-01,Silver,$/troy oz,6.7
+1988-09-01,Gold,$/troy oz,413
+1988-09-01,Copper,$/mt,2436
+1988-09-01,Silver,$/troy oz,6.4
+1988-10-01,Gold,$/troy oz,407
+1988-10-01,Copper,$/mt,2940
+1988-10-01,Silver,$/troy oz,6.3
+1988-11-01,Gold,$/troy oz,420
+1988-11-01,Copper,$/mt,3305
+1988-11-01,Silver,$/troy oz,6.3
+1988-12-01,Gold,$/troy oz,419
+1988-12-01,Copper,$/mt,3499
+1988-12-01,Silver,$/troy oz,6.1
+1989-01-01,Gold,$/troy oz,404
+1989-01-01,Copper,$/mt,3394
+1989-01-01,Silver,$/troy oz,6
+1989-02-01,Gold,$/troy oz,388
+1989-02-01,Copper,$/mt,3097
+1989-02-01,Silver,$/troy oz,5.9
+1989-03-01,Gold,$/troy oz,390
+1989-03-01,Copper,$/mt,3264
+1989-03-01,Silver,$/troy oz,6
+1989-04-01,Gold,$/troy oz,384
+1989-04-01,Copper,$/mt,3118
+1989-04-01,Silver,$/troy oz,5.8
+1989-05-01,Gold,$/troy oz,371
+1989-05-01,Copper,$/mt,2739
+1989-05-01,Silver,$/troy oz,5.5
+1989-06-01,Gold,$/troy oz,368
+1989-06-01,Copper,$/mt,2546
+1989-06-01,Silver,$/troy oz,5.3
+1989-07-01,Gold,$/troy oz,375
+1989-07-01,Copper,$/mt,2505
+1989-07-01,Silver,$/troy oz,5.2
+1989-08-01,Gold,$/troy oz,365
+1989-08-01,Copper,$/mt,2762
+1989-08-01,Silver,$/troy oz,5.2
+1989-09-01,Gold,$/troy oz,362
+1989-09-01,Copper,$/mt,2884
+1989-09-01,Silver,$/troy oz,5.1
+1989-10-01,Gold,$/troy oz,367
+1989-10-01,Copper,$/mt,2861
+1989-10-01,Silver,$/troy oz,5.1
+1989-11-01,Gold,$/troy oz,394
+1989-11-01,Copper,$/mt,2591
+1989-11-01,Silver,$/troy oz,5.5
+1989-12-01,Gold,$/troy oz,409
+1989-12-01,Copper,$/mt,2419
+1989-12-01,Silver,$/troy oz,5.6
+1990-01-01,Gold,$/troy oz,410
+1990-01-01,Copper,$/mt,2367
+1990-01-01,Silver,$/troy oz,5.2
+1990-02-01,Gold,$/troy oz,417
+1990-02-01,Copper,$/mt,2360
+1990-02-01,Silver,$/troy oz,5.3
+1990-03-01,Gold,$/troy oz,393
+1990-03-01,Copper,$/mt,2626
+1990-03-01,Silver,$/troy oz,5.1
+1990-04-01,Gold,$/troy oz,374
+1990-04-01,Copper,$/mt,2686
+1990-04-01,Silver,$/troy oz,5.1
+1990-05-01,Gold,$/troy oz,369
+1990-05-01,Copper,$/mt,2742
+1990-05-01,Silver,$/troy oz,5.1
+1990-06-01,Gold,$/troy oz,352
+1990-06-01,Copper,$/mt,2585
+1990-06-01,Silver,$/troy oz,4.9
+1990-07-01,Gold,$/troy oz,363
+1990-07-01,Copper,$/mt,2769
+1990-07-01,Silver,$/troy oz,4.9
+1990-08-01,Gold,$/troy oz,395
+1990-08-01,Copper,$/mt,2957
+1990-08-01,Silver,$/troy oz,5
+1990-09-01,Gold,$/troy oz,389
+1990-09-01,Copper,$/mt,3031
+1990-09-01,Silver,$/troy oz,4.8
+1990-10-01,Gold,$/troy oz,381
+1990-10-01,Copper,$/mt,2744
+1990-10-01,Silver,$/troy oz,4.4
+1990-11-01,Gold,$/troy oz,382
+1990-11-01,Copper,$/mt,2586
+1990-11-01,Silver,$/troy oz,4.2
+1990-12-01,Gold,$/troy oz,377
+1990-12-01,Copper,$/mt,2485
+1990-12-01,Silver,$/troy oz,4.1
+1991-01-01,Gold,$/troy oz,384
+1991-01-01,Copper,$/mt,2449
+1991-01-01,Silver,$/troy oz,4.1
+1991-02-01,Gold,$/troy oz,364
+1991-02-01,Copper,$/mt,2449
+1991-02-01,Silver,$/troy oz,3.7
+1991-03-01,Gold,$/troy oz,363
+1991-03-01,Copper,$/mt,2410
+1991-03-01,Silver,$/troy oz,3.9
+1991-04-01,Gold,$/troy oz,358
+1991-04-01,Copper,$/mt,2472
+1991-04-01,Silver,$/troy oz,4
+1991-05-01,Gold,$/troy oz,357
+1991-05-01,Copper,$/mt,2306
+1991-05-01,Silver,$/troy oz,4
+1991-06-01,Gold,$/troy oz,367
+1991-06-01,Copper,$/mt,2219
+1991-06-01,Silver,$/troy oz,4.4
+1991-07-01,Gold,$/troy oz,368
+1991-07-01,Copper,$/mt,2236
+1991-07-01,Silver,$/troy oz,4.3
+1991-08-01,Gold,$/troy oz,356
+1991-08-01,Copper,$/mt,2233
+1991-08-01,Silver,$/troy oz,4
+1991-09-01,Gold,$/troy oz,349
+1991-09-01,Copper,$/mt,2325
+1991-09-01,Silver,$/troy oz,4
+1991-10-01,Gold,$/troy oz,359
+1991-10-01,Copper,$/mt,2364
+1991-10-01,Silver,$/troy oz,4.1
+1991-11-01,Gold,$/troy oz,360
+1991-11-01,Copper,$/mt,2380
+1991-11-01,Silver,$/troy oz,4.1
+1991-12-01,Gold,$/troy oz,362
+1991-12-01,Copper,$/mt,2223
+1991-12-01,Silver,$/troy oz,3.9
+1992-01-01,Gold,$/troy oz,354
+1992-01-01,Copper,$/mt,2139
+1992-01-01,Silver,$/troy oz,4.1
+1992-02-01,Gold,$/troy oz,354
+1992-02-01,Copper,$/mt,2206
+1992-02-01,Silver,$/troy oz,4.1
+1992-03-01,Gold,$/troy oz,344
+1992-03-01,Copper,$/mt,2227
+1992-03-01,Silver,$/troy oz,4.1
+1992-04-01,Gold,$/troy oz,339
+1992-04-01,Copper,$/mt,2215
+1992-04-01,Silver,$/troy oz,4.1
+1992-05-01,Gold,$/troy oz,337
+1992-05-01,Copper,$/mt,2217
+1992-05-01,Silver,$/troy oz,4.1
+1992-06-01,Gold,$/troy oz,341
+1992-06-01,Copper,$/mt,2299
+1992-06-01,Silver,$/troy oz,4.1
+1992-07-01,Gold,$/troy oz,353
+1992-07-01,Copper,$/mt,2520
+1992-07-01,Silver,$/troy oz,4
+1992-08-01,Gold,$/troy oz,343
+1992-08-01,Copper,$/mt,2522
+1992-08-01,Silver,$/troy oz,3.8
+1992-09-01,Gold,$/troy oz,345
+1992-09-01,Copper,$/mt,2414
+1992-09-01,Silver,$/troy oz,3.8
+1992-10-01,Gold,$/troy oz,344
+1992-10-01,Copper,$/mt,2249
+1992-10-01,Silver,$/troy oz,3.8
+1992-11-01,Gold,$/troy oz,335
+1992-11-01,Copper,$/mt,2158
+1992-11-01,Silver,$/troy oz,3.8
+1992-12-01,Gold,$/troy oz,335
+1992-12-01,Copper,$/mt,2207
+1992-12-01,Silver,$/troy oz,3.7
+1993-01-01,Gold,$/troy oz,329
+1993-01-01,Copper,$/mt,2257
+1993-01-01,Silver,$/troy oz,3.7
+1993-02-01,Gold,$/troy oz,329
+1993-02-01,Copper,$/mt,2213
+1993-02-01,Silver,$/troy oz,3.7
+1993-03-01,Gold,$/troy oz,330
+1993-03-01,Copper,$/mt,2153
+1993-03-01,Silver,$/troy oz,3.6
+1993-04-01,Gold,$/troy oz,342
+1993-04-01,Copper,$/mt,1950
+1993-04-01,Silver,$/troy oz,4
+1993-05-01,Gold,$/troy oz,367
+1993-05-01,Copper,$/mt,1795
+1993-05-01,Silver,$/troy oz,4.5
+1993-06-01,Gold,$/troy oz,372
+1993-06-01,Copper,$/mt,1853
+1993-06-01,Silver,$/troy oz,4.4
+1993-07-01,Gold,$/troy oz,392
+1993-07-01,Copper,$/mt,1927
+1993-07-01,Silver,$/troy oz,5
+1993-08-01,Gold,$/troy oz,379
+1993-08-01,Copper,$/mt,1947
+1993-08-01,Silver,$/troy oz,4.8
+1993-09-01,Gold,$/troy oz,355
+1993-09-01,Copper,$/mt,1862
+1993-09-01,Silver,$/troy oz,4.2
+1993-10-01,Gold,$/troy oz,364
+1993-10-01,Copper,$/mt,1646
+1993-10-01,Silver,$/troy oz,4.3
+1993-11-01,Gold,$/troy oz,374
+1993-11-01,Copper,$/mt,1630
+1993-11-01,Silver,$/troy oz,4.5
+1993-12-01,Gold,$/troy oz,383
+1993-12-01,Copper,$/mt,1724
+1993-12-01,Silver,$/troy oz,5
+1994-01-01,Gold,$/troy oz,387
+1994-01-01,Copper,$/mt,1805
+1994-01-01,Silver,$/troy oz,5.1
+1994-02-01,Gold,$/troy oz,382
+1994-02-01,Copper,$/mt,1866
+1994-02-01,Silver,$/troy oz,5.2
+1994-03-01,Gold,$/troy oz,384
+1994-03-01,Copper,$/mt,1915
+1994-03-01,Silver,$/troy oz,5.4
+1994-04-01,Gold,$/troy oz,377
+1994-04-01,Copper,$/mt,1882
+1994-04-01,Silver,$/troy oz,5.4
+1994-05-01,Gold,$/troy oz,381
+1994-05-01,Copper,$/mt,2151
+1994-05-01,Silver,$/troy oz,5.4
+1994-06-01,Gold,$/troy oz,386
+1994-06-01,Copper,$/mt,2364
+1994-06-01,Silver,$/troy oz,5.4
+1994-07-01,Gold,$/troy oz,385
+1994-07-01,Copper,$/mt,2458
+1994-07-01,Silver,$/troy oz,5.3
+1994-08-01,Gold,$/troy oz,380
+1994-08-01,Copper,$/mt,2406
+1994-08-01,Silver,$/troy oz,5.2
+1994-09-01,Gold,$/troy oz,392
+1994-09-01,Copper,$/mt,2506
+1994-09-01,Silver,$/troy oz,5.5
+1994-10-01,Gold,$/troy oz,390
+1994-10-01,Copper,$/mt,2548
+1994-10-01,Silver,$/troy oz,5.5
+1994-11-01,Gold,$/troy oz,384
+1994-11-01,Copper,$/mt,2802
+1994-11-01,Silver,$/troy oz,5.2
+1994-12-01,Gold,$/troy oz,379
+1994-12-01,Copper,$/mt,2985
+1994-12-01,Silver,$/troy oz,4.8
+1995-01-01,Gold,$/troy oz,379
+1995-01-01,Copper,$/mt,3009
+1995-01-01,Silver,$/troy oz,4.8
+1995-02-01,Gold,$/troy oz,377
+1995-02-01,Copper,$/mt,2878
+1995-02-01,Silver,$/troy oz,4.7
+1995-03-01,Gold,$/troy oz,382
+1995-03-01,Copper,$/mt,2924
+1995-03-01,Silver,$/troy oz,4.6
+1995-04-01,Gold,$/troy oz,391
+1995-04-01,Copper,$/mt,2904
+1995-04-01,Silver,$/troy oz,5.5
+1995-05-01,Gold,$/troy oz,385
+1995-05-01,Copper,$/mt,2773
+1995-05-01,Silver,$/troy oz,5.6
+1995-06-01,Gold,$/troy oz,388
+1995-06-01,Copper,$/mt,2995
+1995-06-01,Silver,$/troy oz,5.4
+1995-07-01,Gold,$/troy oz,386
+1995-07-01,Copper,$/mt,3076
+1995-07-01,Silver,$/troy oz,5.2
+1995-08-01,Gold,$/troy oz,384
+1995-08-01,Copper,$/mt,3037
+1995-08-01,Silver,$/troy oz,5.4
+1995-09-01,Gold,$/troy oz,383
+1995-09-01,Copper,$/mt,2916
+1995-09-01,Silver,$/troy oz,5.4
+1995-10-01,Gold,$/troy oz,383
+1995-10-01,Copper,$/mt,2814
+1995-10-01,Silver,$/troy oz,5.4
+1995-11-01,Gold,$/troy oz,385
+1995-11-01,Copper,$/mt,2977
+1995-11-01,Silver,$/troy oz,5.3
+1995-12-01,Gold,$/troy oz,387
+1995-12-01,Copper,$/mt,2926
+1995-12-01,Silver,$/troy oz,5.2
+1996-01-01,Gold,$/troy oz,399
+1996-01-01,Copper,$/mt,2616
+1996-01-01,Silver,$/troy oz,5.5
+1996-02-01,Gold,$/troy oz,405
+1996-02-01,Copper,$/mt,2538
+1996-02-01,Silver,$/troy oz,5.7
+1996-03-01,Gold,$/troy oz,396
+1996-03-01,Copper,$/mt,2561
+1996-03-01,Silver,$/troy oz,5.5
+1996-04-01,Gold,$/troy oz,393
+1996-04-01,Copper,$/mt,2596
+1996-04-01,Silver,$/troy oz,5.4
+1996-05-01,Gold,$/troy oz,392
+1996-05-01,Copper,$/mt,2658
+1996-05-01,Silver,$/troy oz,5.4
+1996-06-01,Gold,$/troy oz,385
+1996-06-01,Copper,$/mt,2173
+1996-06-01,Silver,$/troy oz,5.2
+1996-07-01,Gold,$/troy oz,383
+1996-07-01,Copper,$/mt,1986
+1996-07-01,Silver,$/troy oz,5.1
+1996-08-01,Gold,$/troy oz,387
+1996-08-01,Copper,$/mt,2009
+1996-08-01,Silver,$/troy oz,5.1
+1996-09-01,Gold,$/troy oz,383
+1996-09-01,Copper,$/mt,1941
+1996-09-01,Silver,$/troy oz,5
+1996-10-01,Gold,$/troy oz,381
+1996-10-01,Copper,$/mt,1961
+1996-10-01,Silver,$/troy oz,4.9
+1996-11-01,Gold,$/troy oz,378
+1996-11-01,Copper,$/mt,2231
+1996-11-01,Silver,$/troy oz,4.8
+1996-12-01,Gold,$/troy oz,369
+1996-12-01,Copper,$/mt,2268
+1996-12-01,Silver,$/troy oz,4.8
+1997-01-01,Gold,$/troy oz,355
+1997-01-01,Copper,$/mt,2435
+1997-01-01,Silver,$/troy oz,4.8
+1997-02-01,Gold,$/troy oz,347
+1997-02-01,Copper,$/mt,2406
+1997-02-01,Silver,$/troy oz,5.1
+1997-03-01,Gold,$/troy oz,352
+1997-03-01,Copper,$/mt,2421
+1997-03-01,Silver,$/troy oz,5.2
+1997-04-01,Gold,$/troy oz,344
+1997-04-01,Copper,$/mt,2391
+1997-04-01,Silver,$/troy oz,4.8
+1997-05-01,Gold,$/troy oz,344
+1997-05-01,Copper,$/mt,2514
+1997-05-01,Silver,$/troy oz,4.7
+1997-06-01,Gold,$/troy oz,341
+1997-06-01,Copper,$/mt,2613
+1997-06-01,Silver,$/troy oz,4.8
+1997-07-01,Gold,$/troy oz,324
+1997-07-01,Copper,$/mt,2450
+1997-07-01,Silver,$/troy oz,4.4
+1997-08-01,Gold,$/troy oz,324
+1997-08-01,Copper,$/mt,2251
+1997-08-01,Silver,$/troy oz,4.5
+1997-09-01,Gold,$/troy oz,323
+1997-09-01,Copper,$/mt,2107
+1997-09-01,Silver,$/troy oz,4.7
+1997-10-01,Gold,$/troy oz,325
+1997-10-01,Copper,$/mt,2052
+1997-10-01,Silver,$/troy oz,5
+1997-11-01,Gold,$/troy oz,306
+1997-11-01,Copper,$/mt,1917
+1997-11-01,Silver,$/troy oz,5.1
+1997-12-01,Gold,$/troy oz,289
+1997-12-01,Copper,$/mt,1762
+1997-12-01,Silver,$/troy oz,5.8
+1998-01-01,Gold,$/troy oz,289
+1998-01-01,Copper,$/mt,1688
+1998-01-01,Silver,$/troy oz,5.9
+1998-02-01,Gold,$/troy oz,297
+1998-02-01,Copper,$/mt,1665
+1998-02-01,Silver,$/troy oz,6.8
+1998-03-01,Gold,$/troy oz,296
+1998-03-01,Copper,$/mt,1748
+1998-03-01,Silver,$/troy oz,6.2
+1998-04-01,Gold,$/troy oz,308
+1998-04-01,Copper,$/mt,1801
+1998-04-01,Silver,$/troy oz,6.3
+1998-05-01,Gold,$/troy oz,299
+1998-05-01,Copper,$/mt,1733
+1998-05-01,Silver,$/troy oz,5.6
+1998-06-01,Gold,$/troy oz,292
+1998-06-01,Copper,$/mt,1661
+1998-06-01,Silver,$/troy oz,5.3
+1998-07-01,Gold,$/troy oz,293
+1998-07-01,Copper,$/mt,1651
+1998-07-01,Silver,$/troy oz,5.5
+1998-08-01,Gold,$/troy oz,284
+1998-08-01,Copper,$/mt,1621
+1998-08-01,Silver,$/troy oz,5.2
+1998-09-01,Gold,$/troy oz,289
+1998-09-01,Copper,$/mt,1648
+1998-09-01,Silver,$/troy oz,5
+1998-10-01,Gold,$/troy oz,296
+1998-10-01,Copper,$/mt,1586
+1998-10-01,Silver,$/troy oz,5
+1998-11-01,Gold,$/troy oz,294
+1998-11-01,Copper,$/mt,1574
+1998-11-01,Silver,$/troy oz,5
+1998-12-01,Gold,$/troy oz,292
+1998-12-01,Copper,$/mt,1474
+1998-12-01,Silver,$/troy oz,4.9
+1999-01-01,Gold,$/troy oz,287
+1999-01-01,Copper,$/mt,1431
+1999-01-01,Silver,$/troy oz,5.1
+1999-02-01,Gold,$/troy oz,287
+1999-02-01,Copper,$/mt,1411
+1999-02-01,Silver,$/troy oz,5.5
+1999-03-01,Gold,$/troy oz,286
+1999-03-01,Copper,$/mt,1378
+1999-03-01,Silver,$/troy oz,5.2
+1999-04-01,Gold,$/troy oz,283
+1999-04-01,Copper,$/mt,1466
+1999-04-01,Silver,$/troy oz,5.1
+1999-05-01,Gold,$/troy oz,276
+1999-05-01,Copper,$/mt,1511
+1999-05-01,Silver,$/troy oz,5.3
+1999-06-01,Gold,$/troy oz,261
+1999-06-01,Copper,$/mt,1422
+1999-06-01,Silver,$/troy oz,5
+1999-07-01,Gold,$/troy oz,256
+1999-07-01,Copper,$/mt,1640
+1999-07-01,Silver,$/troy oz,5.2
+1999-08-01,Gold,$/troy oz,257
+1999-08-01,Copper,$/mt,1648
+1999-08-01,Silver,$/troy oz,5.3
+1999-09-01,Gold,$/troy oz,265
+1999-09-01,Copper,$/mt,1750
+1999-09-01,Silver,$/troy oz,5.2
+1999-10-01,Gold,$/troy oz,311
+1999-10-01,Copper,$/mt,1724
+1999-10-01,Silver,$/troy oz,5.4
+1999-11-01,Gold,$/troy oz,293
+1999-11-01,Copper,$/mt,1728
+1999-11-01,Silver,$/troy oz,5.2
+1999-12-01,Gold,$/troy oz,283
+1999-12-01,Copper,$/mt,1765
+1999-12-01,Silver,$/troy oz,5.2
+2000-01-01,Gold,$/troy oz,284
+2000-01-01,Copper,$/mt,1844
+2000-01-01,Silver,$/troy oz,5.2
+2000-02-01,Gold,$/troy oz,300
+2000-02-01,Copper,$/mt,1801
+2000-02-01,Silver,$/troy oz,5.2
+2000-03-01,Gold,$/troy oz,286
+2000-03-01,Copper,$/mt,1739
+2000-03-01,Silver,$/troy oz,5.1
+2000-04-01,Gold,$/troy oz,280
+2000-04-01,Copper,$/mt,1679
+2000-04-01,Silver,$/troy oz,5.1
+2000-05-01,Gold,$/troy oz,275
+2000-05-01,Copper,$/mt,1786
+2000-05-01,Silver,$/troy oz,5
+2000-06-01,Gold,$/troy oz,286
+2000-06-01,Copper,$/mt,1753
+2000-06-01,Silver,$/troy oz,5
+2000-07-01,Gold,$/troy oz,282
+2000-07-01,Copper,$/mt,1799
+2000-07-01,Silver,$/troy oz,5
+2000-08-01,Gold,$/troy oz,274
+2000-08-01,Copper,$/mt,1856
+2000-08-01,Silver,$/troy oz,4.9
+2000-09-01,Gold,$/troy oz,274
+2000-09-01,Copper,$/mt,1960
+2000-09-01,Silver,$/troy oz,4.9
+2000-10-01,Gold,$/troy oz,270
+2000-10-01,Copper,$/mt,1899
+2000-10-01,Silver,$/troy oz,4.8
+2000-11-01,Gold,$/troy oz,266
+2000-11-01,Copper,$/mt,1795
+2000-11-01,Silver,$/troy oz,4.7
+2000-12-01,Gold,$/troy oz,271
+2000-12-01,Copper,$/mt,1851
+2000-12-01,Silver,$/troy oz,4.6
+2001-01-01,Gold,$/troy oz,265
+2001-01-01,Copper,$/mt,1788
+2001-01-01,Silver,$/troy oz,4.7
+2001-02-01,Gold,$/troy oz,262
+2001-02-01,Copper,$/mt,1766
+2001-02-01,Silver,$/troy oz,4.6
+2001-03-01,Gold,$/troy oz,263
+2001-03-01,Copper,$/mt,1739
+2001-03-01,Silver,$/troy oz,4.4
+2001-04-01,Gold,$/troy oz,260
+2001-04-01,Copper,$/mt,1664
+2001-04-01,Silver,$/troy oz,4.4
+2001-05-01,Gold,$/troy oz,272
+2001-05-01,Copper,$/mt,1682
+2001-05-01,Silver,$/troy oz,4.4
+2001-06-01,Gold,$/troy oz,270
+2001-06-01,Copper,$/mt,1608
+2001-06-01,Silver,$/troy oz,4.4
+2001-07-01,Gold,$/troy oz,268
+2001-07-01,Copper,$/mt,1525
+2001-07-01,Silver,$/troy oz,4.3
+2001-08-01,Gold,$/troy oz,272
+2001-08-01,Copper,$/mt,1464
+2001-08-01,Silver,$/troy oz,4.2
+2001-09-01,Gold,$/troy oz,283
+2001-09-01,Copper,$/mt,1426
+2001-09-01,Silver,$/troy oz,4.4
+2001-10-01,Gold,$/troy oz,283
+2001-10-01,Copper,$/mt,1377
+2001-10-01,Silver,$/troy oz,4.4
+2001-11-01,Gold,$/troy oz,276
+2001-11-01,Copper,$/mt,1428
+2001-11-01,Silver,$/troy oz,4.1
+2001-12-01,Gold,$/troy oz,276
+2001-12-01,Copper,$/mt,1472
+2001-12-01,Silver,$/troy oz,4.4
+2002-01-01,Gold,$/troy oz,282
+2002-01-01,Copper,$/mt,1504
+2002-01-01,Silver,$/troy oz,4.5
+2002-02-01,Gold,$/troy oz,296
+2002-02-01,Copper,$/mt,1562
+2002-02-01,Silver,$/troy oz,4.4
+2002-03-01,Gold,$/troy oz,294
+2002-03-01,Copper,$/mt,1605
+2002-03-01,Silver,$/troy oz,4.5
+2002-04-01,Gold,$/troy oz,303
+2002-04-01,Copper,$/mt,1590
+2002-04-01,Silver,$/troy oz,4.6
+2002-05-01,Gold,$/troy oz,314
+2002-05-01,Copper,$/mt,1596
+2002-05-01,Silver,$/troy oz,4.7
+2002-06-01,Gold,$/troy oz,321
+2002-06-01,Copper,$/mt,1648
+2002-06-01,Silver,$/troy oz,4.9
+2002-07-01,Gold,$/troy oz,313
+2002-07-01,Copper,$/mt,1589
+2002-07-01,Silver,$/troy oz,4.9
+2002-08-01,Gold,$/troy oz,310
+2002-08-01,Copper,$/mt,1480
+2002-08-01,Silver,$/troy oz,4.5
+2002-09-01,Gold,$/troy oz,319
+2002-09-01,Copper,$/mt,1479
+2002-09-01,Silver,$/troy oz,4.6
+2002-10-01,Gold,$/troy oz,317
+2002-10-01,Copper,$/mt,1484
+2002-10-01,Silver,$/troy oz,4.4
+2002-11-01,Gold,$/troy oz,319
+2002-11-01,Copper,$/mt,1582
+2002-11-01,Silver,$/troy oz,4.5
+2002-12-01,Gold,$/troy oz,332
+2002-12-01,Copper,$/mt,1596
+2002-12-01,Silver,$/troy oz,4.6
+2003-01-01,Gold,$/troy oz,357
+2003-01-01,Copper,$/mt,1648
+2003-01-01,Silver,$/troy oz,4.8
+2003-02-01,Gold,$/troy oz,359
+2003-02-01,Copper,$/mt,1684
+2003-02-01,Silver,$/troy oz,4.7
+2003-03-01,Gold,$/troy oz,341
+2003-03-01,Copper,$/mt,1659
+2003-03-01,Silver,$/troy oz,4.5
+2003-04-01,Gold,$/troy oz,328
+2003-04-01,Copper,$/mt,1587
+2003-04-01,Silver,$/troy oz,4.5
+2003-05-01,Gold,$/troy oz,356
+2003-05-01,Copper,$/mt,1648
+2003-05-01,Silver,$/troy oz,4.7
+2003-06-01,Gold,$/troy oz,356
+2003-06-01,Copper,$/mt,1687
+2003-06-01,Silver,$/troy oz,4.5
+2003-07-01,Gold,$/troy oz,351
+2003-07-01,Copper,$/mt,1710
+2003-07-01,Silver,$/troy oz,4.8
+2003-08-01,Gold,$/troy oz,360
+2003-08-01,Copper,$/mt,1760
+2003-08-01,Silver,$/troy oz,5
+2003-09-01,Gold,$/troy oz,379
+2003-09-01,Copper,$/mt,1790
+2003-09-01,Silver,$/troy oz,5.2
+2003-10-01,Gold,$/troy oz,379
+2003-10-01,Copper,$/mt,1921
+2003-10-01,Silver,$/troy oz,5
+2003-11-01,Gold,$/troy oz,390
+2003-11-01,Copper,$/mt,2055
+2003-11-01,Silver,$/troy oz,5.2
+2003-12-01,Gold,$/troy oz,407
+2003-12-01,Copper,$/mt,2201
+2003-12-01,Silver,$/troy oz,5.6
+2004-01-01,Gold,$/troy oz,414
+2004-01-01,Copper,$/mt,2424
+2004-01-01,Silver,$/troy oz,6.3
+2004-02-01,Gold,$/troy oz,405
+2004-02-01,Copper,$/mt,2760
+2004-02-01,Silver,$/troy oz,6.4
+2004-03-01,Gold,$/troy oz,407
+2004-03-01,Copper,$/mt,3009
+2004-03-01,Silver,$/troy oz,7.2
+2004-04-01,Gold,$/troy oz,403
+2004-04-01,Copper,$/mt,2949
+2004-04-01,Silver,$/troy oz,7.1
+2004-05-01,Gold,$/troy oz,384
+2004-05-01,Copper,$/mt,2734
+2004-05-01,Silver,$/troy oz,5.9
+2004-06-01,Gold,$/troy oz,392
+2004-06-01,Copper,$/mt,2687
+2004-06-01,Silver,$/troy oz,5.9
+2004-07-01,Gold,$/troy oz,398
+2004-07-01,Copper,$/mt,2808
+2004-07-01,Silver,$/troy oz,6.3
+2004-08-01,Gold,$/troy oz,401
+2004-08-01,Copper,$/mt,2846
+2004-08-01,Silver,$/troy oz,6.7
+2004-09-01,Gold,$/troy oz,405
+2004-09-01,Copper,$/mt,2895
+2004-09-01,Silver,$/troy oz,6.4
+2004-10-01,Gold,$/troy oz,420
+2004-10-01,Copper,$/mt,3012
+2004-10-01,Silver,$/troy oz,7.1
+2004-11-01,Gold,$/troy oz,439
+2004-11-01,Copper,$/mt,3123
+2004-11-01,Silver,$/troy oz,7.5
+2004-12-01,Gold,$/troy oz,442
+2004-12-01,Copper,$/mt,3145
+2004-12-01,Silver,$/troy oz,7.1
+2005-01-01,Gold,$/troy oz,424
+2005-01-01,Copper,$/mt,3170
+2005-01-01,Silver,$/troy oz,6.6
+2005-02-01,Gold,$/troy oz,423
+2005-02-01,Copper,$/mt,3254
+2005-02-01,Silver,$/troy oz,7
+2005-03-01,Gold,$/troy oz,434
+2005-03-01,Copper,$/mt,3379
+2005-03-01,Silver,$/troy oz,7.2
+2005-04-01,Gold,$/troy oz,429
+2005-04-01,Copper,$/mt,3394
+2005-04-01,Silver,$/troy oz,7.1
+2005-05-01,Gold,$/troy oz,422
+2005-05-01,Copper,$/mt,3249
+2005-05-01,Silver,$/troy oz,7
+2005-06-01,Gold,$/troy oz,431
+2005-06-01,Copper,$/mt,3524
+2005-06-01,Silver,$/troy oz,7.3
+2005-07-01,Gold,$/troy oz,424
+2005-07-01,Copper,$/mt,3614
+2005-07-01,Silver,$/troy oz,7
+2005-08-01,Gold,$/troy oz,438
+2005-08-01,Copper,$/mt,3798
+2005-08-01,Silver,$/troy oz,7
+2005-09-01,Gold,$/troy oz,456
+2005-09-01,Copper,$/mt,3858
+2005-09-01,Silver,$/troy oz,7.2
+2005-10-01,Gold,$/troy oz,470
+2005-10-01,Copper,$/mt,4060
+2005-10-01,Silver,$/troy oz,7.7
+2005-11-01,Gold,$/troy oz,477
+2005-11-01,Copper,$/mt,4269
+2005-11-01,Silver,$/troy oz,7.9
+2005-12-01,Gold,$/troy oz,510
+2005-12-01,Copper,$/mt,4577
+2005-12-01,Silver,$/troy oz,8.6
+2006-01-01,Gold,$/troy oz,550
+2006-01-01,Copper,$/mt,4734
+2006-01-01,Silver,$/troy oz,9.1
+2006-02-01,Gold,$/troy oz,555
+2006-02-01,Copper,$/mt,4982
+2006-02-01,Silver,$/troy oz,9.5
+2006-03-01,Gold,$/troy oz,557
+2006-03-01,Copper,$/mt,5103
+2006-03-01,Silver,$/troy oz,10.4
+2006-04-01,Gold,$/troy oz,611
+2006-04-01,Copper,$/mt,6388
+2006-04-01,Silver,$/troy oz,12.6
+2006-05-01,Gold,$/troy oz,675
+2006-05-01,Copper,$/mt,8046
+2006-05-01,Silver,$/troy oz,13.4
+2006-06-01,Gold,$/troy oz,596
+2006-06-01,Copper,$/mt,7198
+2006-06-01,Silver,$/troy oz,10.8
+2006-07-01,Gold,$/troy oz,634
+2006-07-01,Copper,$/mt,7712
+2006-07-01,Silver,$/troy oz,11.2
+2006-08-01,Gold,$/troy oz,633
+2006-08-01,Copper,$/mt,7696
+2006-08-01,Silver,$/troy oz,12.2
+2006-09-01,Gold,$/troy oz,598
+2006-09-01,Copper,$/mt,7602
+2006-09-01,Silver,$/troy oz,11.7
+2006-10-01,Gold,$/troy oz,586
+2006-10-01,Copper,$/mt,7500
+2006-10-01,Silver,$/troy oz,11.6
+2006-11-01,Gold,$/troy oz,628
+2006-11-01,Copper,$/mt,7029
+2006-11-01,Silver,$/troy oz,12.9
+2006-12-01,Gold,$/troy oz,630
+2006-12-01,Copper,$/mt,6675
+2006-12-01,Silver,$/troy oz,13.3
+2007-01-01,Gold,$/troy oz,631
+2007-01-01,Copper,$/mt,5670
+2007-01-01,Silver,$/troy oz,12.8
+2007-02-01,Gold,$/troy oz,665
+2007-02-01,Copper,$/mt,5676
+2007-02-01,Silver,$/troy oz,13.9
+2007-03-01,Gold,$/troy oz,655
+2007-03-01,Copper,$/mt,6452
+2007-03-01,Silver,$/troy oz,13.2
+2007-04-01,Gold,$/troy oz,679
+2007-04-01,Copper,$/mt,7766
+2007-04-01,Silver,$/troy oz,13.7
+2007-05-01,Gold,$/troy oz,667
+2007-05-01,Copper,$/mt,7681
+2007-05-01,Silver,$/troy oz,13.1
+2007-06-01,Gold,$/troy oz,656
+2007-06-01,Copper,$/mt,7474
+2007-06-01,Silver,$/troy oz,13.1
+2007-07-01,Gold,$/troy oz,665
+2007-07-01,Copper,$/mt,7973
+2007-07-01,Silver,$/troy oz,12.9
+2007-08-01,Gold,$/troy oz,665
+2007-08-01,Copper,$/mt,7514
+2007-08-01,Silver,$/troy oz,12.3
+2007-09-01,Gold,$/troy oz,713
+2007-09-01,Copper,$/mt,7649
+2007-09-01,Silver,$/troy oz,12.8
+2007-10-01,Gold,$/troy oz,755
+2007-10-01,Copper,$/mt,8008
+2007-10-01,Silver,$/troy oz,13.7
+2007-11-01,Gold,$/troy oz,806
+2007-11-01,Copper,$/mt,6967
+2007-11-01,Silver,$/troy oz,14.7
+2007-12-01,Gold,$/troy oz,803
+2007-12-01,Copper,$/mt,6588
+2007-12-01,Silver,$/troy oz,14.3
+2008-01-01,Gold,$/troy oz,890
+2008-01-01,Copper,$/mt,7061
+2008-01-01,Silver,$/troy oz,15.9
+2008-02-01,Gold,$/troy oz,922
+2008-02-01,Copper,$/mt,7888
+2008-02-01,Silver,$/troy oz,17.6
+2008-03-01,Gold,$/troy oz,968
+2008-03-01,Copper,$/mt,8439
+2008-03-01,Silver,$/troy oz,19.3
+2008-04-01,Gold,$/troy oz,910
+2008-04-01,Copper,$/mt,8685
+2008-04-01,Silver,$/troy oz,17.5
+2008-05-01,Gold,$/troy oz,889
+2008-05-01,Copper,$/mt,8383
+2008-05-01,Silver,$/troy oz,17.1
+2008-06-01,Gold,$/troy oz,889
+2008-06-01,Copper,$/mt,8261
+2008-06-01,Silver,$/troy oz,17
+2008-07-01,Gold,$/troy oz,940
+2008-07-01,Copper,$/mt,8414
+2008-07-01,Silver,$/troy oz,18
+2008-08-01,Gold,$/troy oz,839
+2008-08-01,Copper,$/mt,7635
+2008-08-01,Silver,$/troy oz,14.6
+2008-09-01,Gold,$/troy oz,830
+2008-09-01,Copper,$/mt,6991
+2008-09-01,Silver,$/troy oz,12.4
+2008-10-01,Gold,$/troy oz,807
+2008-10-01,Copper,$/mt,4926
+2008-10-01,Silver,$/troy oz,10.4
+2008-11-01,Gold,$/troy oz,761
+2008-11-01,Copper,$/mt,3717
+2008-11-01,Silver,$/troy oz,9.9
+2008-12-01,Gold,$/troy oz,816
+2008-12-01,Copper,$/mt,3072
+2008-12-01,Silver,$/troy oz,10.3
+2009-01-01,Gold,$/troy oz,859
+2009-01-01,Copper,$/mt,3221
+2009-01-01,Silver,$/troy oz,11.3
+2009-02-01,Gold,$/troy oz,943
+2009-02-01,Copper,$/mt,3315
+2009-02-01,Silver,$/troy oz,13.4
+2009-03-01,Gold,$/troy oz,924
+2009-03-01,Copper,$/mt,3750
+2009-03-01,Silver,$/troy oz,13.1
+2009-04-01,Gold,$/troy oz,890
+2009-04-01,Copper,$/mt,4407
+2009-04-01,Silver,$/troy oz,12.5
+2009-05-01,Gold,$/troy oz,929
+2009-05-01,Copper,$/mt,4569
+2009-05-01,Silver,$/troy oz,14
+2009-06-01,Gold,$/troy oz,946
+2009-06-01,Copper,$/mt,5014
+2009-06-01,Silver,$/troy oz,14.7
+2009-07-01,Gold,$/troy oz,934
+2009-07-01,Copper,$/mt,5216
+2009-07-01,Silver,$/troy oz,13.4
+2009-08-01,Gold,$/troy oz,949
+2009-08-01,Copper,$/mt,6165
+2009-08-01,Silver,$/troy oz,14.4
+2009-09-01,Gold,$/troy oz,997
+2009-09-01,Copper,$/mt,6196
+2009-09-01,Silver,$/troy oz,16.4
+2009-10-01,Gold,$/troy oz,1043
+2009-10-01,Copper,$/mt,6288
+2009-10-01,Silver,$/troy oz,17.2
+2009-11-01,Gold,$/troy oz,1127
+2009-11-01,Copper,$/mt,6676
+2009-11-01,Silver,$/troy oz,17.8
+2009-12-01,Gold,$/troy oz,1135
+2009-12-01,Copper,$/mt,6982
+2009-12-01,Silver,$/troy oz,17.6
+2010-01-01,Gold,$/troy oz,1118
+2010-01-01,Copper,$/mt,7386
+2010-01-01,Silver,$/troy oz,17.7
+2010-02-01,Gold,$/troy oz,1095
+2010-02-01,Copper,$/mt,6848
+2010-02-01,Silver,$/troy oz,15.9
+2010-03-01,Gold,$/troy oz,1113
+2010-03-01,Copper,$/mt,7463
+2010-03-01,Silver,$/troy oz,17.1
+2010-04-01,Gold,$/troy oz,1149
+2010-04-01,Copper,$/mt,7745
+2010-04-01,Silver,$/troy oz,18.1
+2010-05-01,Gold,$/troy oz,1205
+2010-05-01,Copper,$/mt,6838
+2010-05-01,Silver,$/troy oz,18.4
+2010-06-01,Gold,$/troy oz,1233
+2010-06-01,Copper,$/mt,6499
+2010-06-01,Silver,$/troy oz,18.5
+2010-07-01,Gold,$/troy oz,1193
+2010-07-01,Copper,$/mt,6735
+2010-07-01,Silver,$/troy oz,18
+2010-08-01,Gold,$/troy oz,1216
+2010-08-01,Copper,$/mt,7284
+2010-08-01,Silver,$/troy oz,18.4
+2010-09-01,Gold,$/troy oz,1271
+2010-09-01,Copper,$/mt,7709
+2010-09-01,Silver,$/troy oz,20.5
+2010-10-01,Gold,$/troy oz,1342
+2010-10-01,Copper,$/mt,8292
+2010-10-01,Silver,$/troy oz,23.4
+2010-11-01,Gold,$/troy oz,1370
+2010-11-01,Copper,$/mt,8470
+2010-11-01,Silver,$/troy oz,26.5
+2010-12-01,Gold,$/troy oz,1391
+2010-12-01,Copper,$/mt,9147
+2010-12-01,Silver,$/troy oz,29.3
+2011-01-01,Gold,$/troy oz,1360
+2011-01-01,Copper,$/mt,9556
+2011-01-01,Silver,$/troy oz,28.5
+2011-02-01,Gold,$/troy oz,1375
+2011-02-01,Copper,$/mt,9868
+2011-02-01,Silver,$/troy oz,30.8
+2011-03-01,Gold,$/troy oz,1423
+2011-03-01,Copper,$/mt,9503
+2011-03-01,Silver,$/troy oz,35.8
+2011-04-01,Gold,$/troy oz,1481
+2011-04-01,Copper,$/mt,9493
+2011-04-01,Silver,$/troy oz,42.7
+2011-05-01,Gold,$/troy oz,1513
+2011-05-01,Copper,$/mt,8960
+2011-05-01,Silver,$/troy oz,37.3
+2011-06-01,Gold,$/troy oz,1529
+2011-06-01,Copper,$/mt,9067
+2011-06-01,Silver,$/troy oz,35.8
+2011-07-01,Gold,$/troy oz,1573
+2011-07-01,Copper,$/mt,9650
+2011-07-01,Silver,$/troy oz,37.9
+2011-08-01,Gold,$/troy oz,1759
+2011-08-01,Copper,$/mt,9001
+2011-08-01,Silver,$/troy oz,40.3
+2011-09-01,Gold,$/troy oz,1772
+2011-09-01,Copper,$/mt,8300
+2011-09-01,Silver,$/troy oz,38.2
+2011-10-01,Gold,$/troy oz,1666
+2011-10-01,Copper,$/mt,7394
+2011-10-01,Silver,$/troy oz,32
+2011-11-01,Gold,$/troy oz,1739
+2011-11-01,Copper,$/mt,7581
+2011-11-01,Silver,$/troy oz,33.1
+2011-12-01,Gold,$/troy oz,1640
+2011-12-01,Copper,$/mt,7565
+2011-12-01,Silver,$/troy oz,30.3
+2012-01-01,Gold,$/troy oz,1654
+2012-01-01,Copper,$/mt,8040
+2012-01-01,Silver,$/troy oz,30.7
+2012-02-01,Gold,$/troy oz,1745
+2012-02-01,Copper,$/mt,8441
+2012-02-01,Silver,$/troy oz,34.1
+2012-03-01,Gold,$/troy oz,1676
+2012-03-01,Copper,$/mt,8471
+2012-03-01,Silver,$/troy oz,33
+2012-04-01,Gold,$/troy oz,1649
+2012-04-01,Copper,$/mt,8289
+2012-04-01,Silver,$/troy oz,31.5
+2012-05-01,Gold,$/troy oz,1589
+2012-05-01,Copper,$/mt,7956
+2012-05-01,Silver,$/troy oz,28.7
+2012-06-01,Gold,$/troy oz,1599
+2012-06-01,Copper,$/mt,7423
+2012-06-01,Silver,$/troy oz,28
+2012-07-01,Gold,$/troy oz,1594
+2012-07-01,Copper,$/mt,7584
+2012-07-01,Silver,$/troy oz,27.4
+2012-08-01,Gold,$/troy oz,1630
+2012-08-01,Copper,$/mt,7516
+2012-08-01,Silver,$/troy oz,28.8
+2012-09-01,Gold,$/troy oz,1745
+2012-09-01,Copper,$/mt,8088
+2012-09-01,Silver,$/troy oz,33.6
+2012-10-01,Gold,$/troy oz,1747
+2012-10-01,Copper,$/mt,8062
+2012-10-01,Silver,$/troy oz,33.2
+2012-11-01,Gold,$/troy oz,1722
+2012-11-01,Copper,$/mt,7711
+2012-11-01,Silver,$/troy oz,32.8
+2012-12-01,Gold,$/troy oz,1685
+2012-12-01,Copper,$/mt,7966
+2012-12-01,Silver,$/troy oz,31.9
+2013-01-01,Gold,$/troy oz,1672
+2013-01-01,Copper,$/mt,8047
+2013-01-01,Silver,$/troy oz,31.1
+2013-02-01,Gold,$/troy oz,1628
+2013-02-01,Copper,$/mt,8061
+2013-02-01,Silver,$/troy oz,30.3
+2013-03-01,Gold,$/troy oz,1593
+2013-03-01,Copper,$/mt,7646
+2013-03-01,Silver,$/troy oz,28.8
+2013-04-01,Gold,$/troy oz,1488
+2013-04-01,Copper,$/mt,7234
+2013-04-01,Silver,$/troy oz,25.4
+2013-05-01,Gold,$/troy oz,1414
+2013-05-01,Copper,$/mt,7249
+2013-05-01,Silver,$/troy oz,23
+2013-06-01,Gold,$/troy oz,1343
+2013-06-01,Copper,$/mt,7000
+2013-06-01,Silver,$/troy oz,21.1
+2013-07-01,Gold,$/troy oz,1286
+2013-07-01,Copper,$/mt,6907
+2013-07-01,Silver,$/troy oz,19.7
+2013-08-01,Gold,$/troy oz,1352
+2013-08-01,Copper,$/mt,7193
+2013-08-01,Silver,$/troy oz,21.9
+2013-09-01,Gold,$/troy oz,1349
+2013-09-01,Copper,$/mt,7159
+2013-09-01,Silver,$/troy oz,22.6
+2013-10-01,Gold,$/troy oz,1317
+2013-10-01,Copper,$/mt,7203
+2013-10-01,Silver,$/troy oz,21.9
+2013-11-01,Gold,$/troy oz,1276
+2013-11-01,Copper,$/mt,7071
+2013-11-01,Silver,$/troy oz,20.8
+2013-12-01,Gold,$/troy oz,1222
+2013-12-01,Copper,$/mt,7215
+2013-12-01,Silver,$/troy oz,19.7
+2014-01-01,Gold,$/troy oz,1244
+2014-01-01,Copper,$/mt,7291
+2014-01-01,Silver,$/troy oz,19.9
+2014-02-01,Gold,$/troy oz,1300
+2014-02-01,Copper,$/mt,7149
+2014-02-01,Silver,$/troy oz,20.8
+2014-03-01,Gold,$/troy oz,1336
+2014-03-01,Copper,$/mt,6650
+2014-03-01,Silver,$/troy oz,20.7
+2014-04-01,Gold,$/troy oz,1298
+2014-04-01,Copper,$/mt,6674
+2014-04-01,Silver,$/troy oz,19.7
+2014-05-01,Gold,$/troy oz,1289
+2014-05-01,Copper,$/mt,6891
+2014-05-01,Silver,$/troy oz,19.3
+2014-06-01,Gold,$/troy oz,1279
+2014-06-01,Copper,$/mt,6821
+2014-06-01,Silver,$/troy oz,19.9
+2014-07-01,Gold,$/troy oz,1311
+2014-07-01,Copper,$/mt,7113
+2014-07-01,Silver,$/troy oz,20.9
+2014-08-01,Gold,$/troy oz,1295
+2014-08-01,Copper,$/mt,7002
+2014-08-01,Silver,$/troy oz,19.7
+2014-09-01,Gold,$/troy oz,1237
+2014-09-01,Copper,$/mt,6872
+2014-09-01,Silver,$/troy oz,18.4
+2014-10-01,Gold,$/troy oz,1222
+2014-10-01,Copper,$/mt,6737
+2014-10-01,Silver,$/troy oz,17.2
+2014-11-01,Gold,$/troy oz,1175
+2014-11-01,Copper,$/mt,6713
+2014-11-01,Silver,$/troy oz,16
+2014-12-01,Gold,$/troy oz,1201
+2014-12-01,Copper,$/mt,6446
+2014-12-01,Silver,$/troy oz,16.3
+2015-01-01,Gold,$/troy oz,1251
+2015-01-01,Copper,$/mt,5831
+2015-01-01,Silver,$/troy oz,17.2
+2015-02-01,Gold,$/troy oz,1227
+2015-02-01,Copper,$/mt,5729
+2015-02-01,Silver,$/troy oz,16.8
+2015-03-01,Gold,$/troy oz,1179
+2015-03-01,Copper,$/mt,5940
+2015-03-01,Silver,$/troy oz,16.2
+2015-04-01,Gold,$/troy oz,1199
+2015-04-01,Copper,$/mt,6042
+2015-04-01,Silver,$/troy oz,16.3
+2015-05-01,Gold,$/troy oz,1199
+2015-05-01,Copper,$/mt,6295
+2015-05-01,Silver,$/troy oz,16.8
+2015-06-01,Gold,$/troy oz,1182
+2015-06-01,Copper,$/mt,5833
+2015-06-01,Silver,$/troy oz,16.1
+2015-07-01,Gold,$/troy oz,1128
+2015-07-01,Copper,$/mt,5457
+2015-07-01,Silver,$/troy oz,15.1
+2015-08-01,Gold,$/troy oz,1118
+2015-08-01,Copper,$/mt,5127
+2015-08-01,Silver,$/troy oz,14.9
+2015-09-01,Gold,$/troy oz,1125
+2015-09-01,Copper,$/mt,5217
+2015-09-01,Silver,$/troy oz,14.8
+2015-10-01,Gold,$/troy oz,1159
+2015-10-01,Copper,$/mt,5216
+2015-10-01,Silver,$/troy oz,15.8
+2015-11-01,Gold,$/troy oz,1086
+2015-11-01,Copper,$/mt,4800
+2015-11-01,Silver,$/troy oz,14.5
+2015-12-01,Gold,$/troy oz,1076
+2015-12-01,Copper,$/mt,4639
+2015-12-01,Silver,$/troy oz,14.1
+2016-01-01,Gold,$/troy oz,1098
+2016-01-01,Copper,$/mt,4472
+2016-01-01,Silver,$/troy oz,14.1
+2016-02-01,Gold,$/troy oz,1200
+2016-02-01,Copper,$/mt,4599
+2016-02-01,Silver,$/troy oz,15.2
+2016-03-01,Gold,$/troy oz,1245
+2016-03-01,Copper,$/mt,4954
+2016-03-01,Silver,$/troy oz,15.5
+2016-04-01,Gold,$/troy oz,1242
+2016-04-01,Copper,$/mt,4873
+2016-04-01,Silver,$/troy oz,16.4
+2016-05-01,Gold,$/troy oz,1261
+2016-05-01,Copper,$/mt,4695
+2016-05-01,Silver,$/troy oz,16.9
+2016-06-01,Gold,$/troy oz,1276
+2016-06-01,Copper,$/mt,4642
+2016-06-01,Silver,$/troy oz,17.3
+2016-07-01,Gold,$/troy oz,1337
+2016-07-01,Copper,$/mt,4865
+2016-07-01,Silver,$/troy oz,20
+2016-08-01,Gold,$/troy oz,1340
+2016-08-01,Copper,$/mt,4752
+2016-08-01,Silver,$/troy oz,19.6
+2016-09-01,Gold,$/troy oz,1327
+2016-09-01,Copper,$/mt,4722
+2016-09-01,Silver,$/troy oz,19.4
+2016-10-01,Gold,$/troy oz,1267
+2016-10-01,Copper,$/mt,4731
+2016-10-01,Silver,$/troy oz,17.7
+2016-11-01,Gold,$/troy oz,1238
+2016-11-01,Copper,$/mt,5451
+2016-11-01,Silver,$/troy oz,17.4
+2016-12-01,Gold,$/troy oz,1157
+2016-12-01,Copper,$/mt,5660
+2016-12-01,Silver,$/troy oz,16.4
+2017-01-01,Gold,$/troy oz,1192
+2017-01-01,Copper,$/mt,5755
+2017-01-01,Silver,$/troy oz,16.9
+2017-02-01,Gold,$/troy oz,1234
+2017-02-01,Copper,$/mt,5941
+2017-02-01,Silver,$/troy oz,17.9
+2017-03-01,Gold,$/troy oz,1231
+2017-03-01,Copper,$/mt,5825
+2017-03-01,Silver,$/troy oz,17.6
+2017-04-01,Gold,$/troy oz,1267
+2017-04-01,Copper,$/mt,5684
+2017-04-01,Silver,$/troy oz,18
+2017-05-01,Gold,$/troy oz,1246
+2017-05-01,Copper,$/mt,5600
+2017-05-01,Silver,$/troy oz,16.7
+2017-06-01,Gold,$/troy oz,1260
+2017-06-01,Copper,$/mt,5720
+2017-06-01,Silver,$/troy oz,16.9
+2017-07-01,Gold,$/troy oz,1237
+2017-07-01,Copper,$/mt,5985
+2017-07-01,Silver,$/troy oz,16.2
+2017-08-01,Gold,$/troy oz,1283
+2017-08-01,Copper,$/mt,6486
+2017-08-01,Silver,$/troy oz,17
+2017-09-01,Gold,$/troy oz,1314
+2017-09-01,Copper,$/mt,6577
+2017-09-01,Silver,$/troy oz,17.4
+2017-10-01,Gold,$/troy oz,1280
+2017-10-01,Copper,$/mt,6808
+2017-10-01,Silver,$/troy oz,16.9
+2017-11-01,Gold,$/troy oz,1282
+2017-11-01,Copper,$/mt,6827
+2017-11-01,Silver,$/troy oz,17
+2017-12-01,Gold,$/troy oz,1264
+2017-12-01,Copper,$/mt,6834
+2017-12-01,Silver,$/troy oz,16.2
+2018-01-01,Gold,$/troy oz,1331
+2018-01-01,Copper,$/mt,7066
+2018-01-01,Silver,$/troy oz,17.1
+2018-02-01,Gold,$/troy oz,1331
+2018-02-01,Copper,$/mt,7007
+2018-02-01,Silver,$/troy oz,16.6
+2018-03-01,Gold,$/troy oz,1325
+2018-03-01,Copper,$/mt,6799
+2018-03-01,Silver,$/troy oz,16.5
+2018-04-01,Gold,$/troy oz,1335
+2018-04-01,Copper,$/mt,6852
+2018-04-01,Silver,$/troy oz,16.6
+2018-05-01,Gold,$/troy oz,1303
+2018-05-01,Copper,$/mt,6825
+2018-05-01,Silver,$/troy oz,16.5
+2018-06-01,Gold,$/troy oz,1282
+2018-06-01,Copper,$/mt,6966
+2018-06-01,Silver,$/troy oz,16.5
+2018-07-01,Gold,$/troy oz,1238
+2018-07-01,Copper,$/mt,6251
+2018-07-01,Silver,$/troy oz,15.7
+2018-08-01,Gold,$/troy oz,1202
+2018-08-01,Copper,$/mt,6051
+2018-08-01,Silver,$/troy oz,15
+2018-09-01,Gold,$/troy oz,1198
+2018-09-01,Copper,$/mt,6051
+2018-09-01,Silver,$/troy oz,14.3
+2018-10-01,Gold,$/troy oz,1215
+2018-10-01,Copper,$/mt,6220
+2018-10-01,Silver,$/troy oz,14.6
+2018-11-01,Gold,$/troy oz,1221
+2018-11-01,Copper,$/mt,6196
+2018-11-01,Silver,$/troy oz,14.4
+2018-12-01,Gold,$/troy oz,1250
+2018-12-01,Copper,$/mt,6075
+2018-12-01,Silver,$/troy oz,14.8
+2019-01-01,Gold,$/troy oz,1292
+2019-01-01,Copper,$/mt,5939
+2019-01-01,Silver,$/troy oz,15.6
+2019-02-01,Gold,$/troy oz,1320
+2019-02-01,Copper,$/mt,6300
+2019-02-01,Silver,$/troy oz,15.8
+2019-03-01,Gold,$/troy oz,1301
+2019-03-01,Copper,$/mt,6439
+2019-03-01,Silver,$/troy oz,15.3
+2019-04-01,Gold,$/troy oz,1286
+2019-04-01,Copper,$/mt,6438
+2019-04-01,Silver,$/troy oz,15.1
+2019-05-01,Gold,$/troy oz,1284
+2019-05-01,Copper,$/mt,6018
+2019-05-01,Silver,$/troy oz,14.7
+2019-06-01,Gold,$/troy oz,1359
+2019-06-01,Copper,$/mt,5882
+2019-06-01,Silver,$/troy oz,15
+2019-07-01,Gold,$/troy oz,1413
+2019-07-01,Copper,$/mt,5941
+2019-07-01,Silver,$/troy oz,15.8
+2019-08-01,Gold,$/troy oz,1500
+2019-08-01,Copper,$/mt,5709
+2019-08-01,Silver,$/troy oz,17.2
+2019-09-01,Gold,$/troy oz,1511
+2019-09-01,Copper,$/mt,5759
+2019-09-01,Silver,$/troy oz,18.2
+2019-10-01,Gold,$/troy oz,1495
+2019-10-01,Copper,$/mt,5757
+2019-10-01,Silver,$/troy oz,17.6
+2019-11-01,Gold,$/troy oz,1471
+2019-11-01,Copper,$/mt,5860
+2019-11-01,Silver,$/troy oz,17.2
+2019-12-01,Gold,$/troy oz,1479
+2019-12-01,Copper,$/mt,6077
+2019-12-01,Silver,$/troy oz,17.1
+2020-01-01,Gold,$/troy oz,1561
+2020-01-01,Copper,$/mt,6031
+2020-01-01,Silver,$/troy oz,18
+2020-02-01,Gold,$/troy oz,1597
+2020-02-01,Copper,$/mt,5688
+2020-02-01,Silver,$/troy oz,17.9
+2020-03-01,Gold,$/troy oz,1592
+2020-03-01,Copper,$/mt,5183
+2020-03-01,Silver,$/troy oz,14.9
+2020-04-01,Gold,$/troy oz,1683
+2020-04-01,Copper,$/mt,5058
+2020-04-01,Silver,$/troy oz,15.1
+2020-05-01,Gold,$/troy oz,1716
+2020-05-01,Copper,$/mt,5240
+2020-05-01,Silver,$/troy oz,16.3
+2020-06-01,Gold,$/troy oz,1732
+2020-06-01,Copper,$/mt,5755
+2020-06-01,Silver,$/troy oz,17.7
+2020-07-01,Gold,$/troy oz,1847
+2020-07-01,Copper,$/mt,6372
+2020-07-01,Silver,$/troy oz,20.6
+2020-08-01,Gold,$/troy oz,1969
+2020-08-01,Copper,$/mt,6499
+2020-08-01,Silver,$/troy oz,27
+2020-09-01,Gold,$/troy oz,1922
+2020-09-01,Copper,$/mt,6705
+2020-09-01,Silver,$/troy oz,25.7
+2020-10-01,Gold,$/troy oz,1900
+2020-10-01,Copper,$/mt,6714
+2020-10-01,Silver,$/troy oz,24.2
+2020-11-01,Gold,$/troy oz,1866
+2020-11-01,Copper,$/mt,7069
+2020-11-01,Silver,$/troy oz,24.1
+2020-12-01,Gold,$/troy oz,1858
+2020-12-01,Copper,$/mt,7772
+2020-12-01,Silver,$/troy oz,25
+2021-01-01,Gold,$/troy oz,1867
+2021-01-01,Copper,$/mt,7972
+2021-01-01,Silver,$/troy oz,25.9
+2021-02-01,Gold,$/troy oz,1808
+2021-02-01,Copper,$/mt,8471
+2021-02-01,Silver,$/troy oz,27.3
+2021-03-01,Gold,$/troy oz,1718
+2021-03-01,Copper,$/mt,8988
+2021-03-01,Silver,$/troy oz,25.6
+2021-04-01,Gold,$/troy oz,1760
+2021-04-01,Copper,$/mt,9325
+2021-04-01,Silver,$/troy oz,25.7
+2021-05-01,Gold,$/troy oz,1850
+2021-05-01,Copper,$/mt,10162
+2021-05-01,Silver,$/troy oz,27.5
+2021-06-01,Gold,$/troy oz,1835
+2021-06-01,Copper,$/mt,9632
+2021-06-01,Silver,$/troy oz,27
+2021-07-01,Gold,$/troy oz,1808
+2021-07-01,Copper,$/mt,9451
+2021-07-01,Silver,$/troy oz,25.7
+2021-08-01,Gold,$/troy oz,1785
+2021-08-01,Copper,$/mt,9370
+2021-08-01,Silver,$/troy oz,24
+2021-09-01,Gold,$/troy oz,1775
+2021-09-01,Copper,$/mt,9325
+2021-09-01,Silver,$/troy oz,23.2
+2021-10-01,Gold,$/troy oz,1777
+2021-10-01,Copper,$/mt,9829
+2021-10-01,Silver,$/troy oz,23.4
+2021-11-01,Gold,$/troy oz,1822
+2021-11-01,Copper,$/mt,9729
+2021-11-01,Silver,$/troy oz,24.2
+2021-12-01,Gold,$/troy oz,1790
+2021-12-01,Copper,$/mt,9551
+2021-12-01,Silver,$/troy oz,22.5
+2022-01-01,Gold,$/troy oz,1816
+2022-01-01,Copper,$/mt,9782
+2022-01-01,Silver,$/troy oz,23.2
+2022-02-01,Gold,$/troy oz,1856
+2022-02-01,Copper,$/mt,9943
+2022-02-01,Silver,$/troy oz,23.5
+2022-03-01,Gold,$/troy oz,1948
+2022-03-01,Copper,$/mt,10231
+2022-03-01,Silver,$/troy oz,25.3
+2022-04-01,Gold,$/troy oz,1937
+2022-04-01,Copper,$/mt,10161
+2022-04-01,Silver,$/troy oz,24.5
+2022-05-01,Gold,$/troy oz,1849
+2022-05-01,Copper,$/mt,9377
+2022-05-01,Silver,$/troy oz,21.9
+2022-06-01,Gold,$/troy oz,1837
+2022-06-01,Copper,$/mt,9024
+2022-06-01,Silver,$/troy oz,21.6
+2022-07-01,Gold,$/troy oz,1733
+2022-07-01,Copper,$/mt,7545
+2022-07-01,Silver,$/troy oz,19.1
+2022-08-01,Gold,$/troy oz,1765
+2022-08-01,Copper,$/mt,7982
+2022-08-01,Silver,$/troy oz,19.7
+2022-09-01,Gold,$/troy oz,1681
+2022-09-01,Copper,$/mt,7746
+2022-09-01,Silver,$/troy oz,18.9
+2022-10-01,Gold,$/troy oz,1664
+2022-10-01,Copper,$/mt,7651
+2022-10-01,Silver,$/troy oz,19.4
+2022-11-01,Gold,$/troy oz,1725
+2022-11-01,Copper,$/mt,8050
+2022-11-01,Silver,$/troy oz,21
+2022-12-01,Gold,$/troy oz,1798
+2022-12-01,Copper,$/mt,8375
+2022-12-01,Silver,$/troy oz,23.3
+2023-01-01,Gold,$/troy oz,1898
+2023-01-01,Copper,$/mt,9038
+2023-01-01,Silver,$/troy oz,23.7
+2023-02-01,Gold,$/troy oz,1855
+2023-02-01,Copper,$/mt,8937
+2023-02-01,Silver,$/troy oz,21.9
+2023-03-01,Gold,$/troy oz,1913
+2023-03-01,Copper,$/mt,8856
+2023-03-01,Silver,$/troy oz,22
+2023-04-01,Gold,$/troy oz,2000
+2023-04-01,Copper,$/mt,8809
+2023-04-01,Silver,$/troy oz,25
+2023-05-01,Gold,$/troy oz,1992
+2023-05-01,Copper,$/mt,8217
+2023-05-01,Silver,$/troy oz,24.3
+2023-06-01,Gold,$/troy oz,1943
+2023-06-01,Copper,$/mt,8397
+2023-06-01,Silver,$/troy oz,23.4
+2023-07-01,Gold,$/troy oz,1951
+2023-07-01,Copper,$/mt,8477
+2023-07-01,Silver,$/troy oz,24.3
+2023-08-01,Gold,$/troy oz,1919
+2023-08-01,Copper,$/mt,8349
+2023-08-01,Silver,$/troy oz,23.4
+2023-09-01,Gold,$/troy oz,1916
+2023-09-01,Copper,$/mt,8277
+2023-09-01,Silver,$/troy oz,23.1
+2023-10-01,Gold,$/troy oz,1916
+2023-10-01,Copper,$/mt,7937
+2023-10-01,Silver,$/troy oz,22.4
+2023-11-01,Gold,$/troy oz,1984
+2023-11-01,Copper,$/mt,8190
+2023-11-01,Silver,$/troy oz,23.5
+2023-12-01,Gold,$/troy oz,2026
+2023-12-01,Copper,$/mt,8400
+2023-12-01,Silver,$/troy oz,23.9
+2024-01-01,Gold,$/troy oz,2034
+2024-01-01,Copper,$/mt,8339
+2024-01-01,Silver,$/troy oz,22.9
+2024-02-01,Gold,$/troy oz,2023
+2024-02-01,Copper,$/mt,8305
+2024-02-01,Silver,$/troy oz,22.7
+2024-03-01,Gold,$/troy oz,2158
+2024-03-01,Copper,$/mt,8689
+2024-03-01,Silver,$/troy oz,24.5
+2024-04-01,Gold,$/troy oz,2331
+2024-04-01,Copper,$/mt,9464
+2024-04-01,Silver,$/troy oz,27.5
+2024-05-01,Gold,$/troy oz,2351
+2024-05-01,Copper,$/mt,10139
+2024-05-01,Silver,$/troy oz,29.4
+2024-06-01,Gold,$/troy oz,2326
+2024-06-01,Copper,$/mt,9648
+2024-06-01,Silver,$/troy oz,29.6
+2024-07-01,Gold,$/troy oz,2398
+2024-07-01,Copper,$/mt,9385
+2024-07-01,Silver,$/troy oz,29.8
+2024-08-01,Gold,$/troy oz,2470
+2024-08-01,Copper,$/mt,8972
+2024-08-01,Silver,$/troy oz,28.5
+2024-09-01,Gold,$/troy oz,2571
+2024-09-01,Copper,$/mt,9237
+2024-09-01,Silver,$/troy oz,30.1
+2024-10-01,Gold,$/troy oz,2690
+2024-10-01,Copper,$/mt,9534
+2024-10-01,Silver,$/troy oz,32.4
+2024-11-01,Gold,$/troy oz,2651
+2024-11-01,Copper,$/mt,9076
+2024-11-01,Silver,$/troy oz,31.1
+2024-12-01,Gold,$/troy oz,2648
+2024-12-01,Copper,$/mt,8916
+2024-12-01,Silver,$/troy oz,30.8
+2025-01-01,Gold,$/troy oz,2710
+2025-01-01,Copper,$/mt,8991
+2025-01-01,Silver,$/troy oz,30.4
+2025-02-01,Gold,$/troy oz,2895
+2025-02-01,Copper,$/mt,9331
+2025-02-01,Silver,$/troy oz,32.2
+2025-03-01,Gold,$/troy oz,2983
+2025-03-01,Copper,$/mt,9740
+2025-03-01,Silver,$/troy oz,33.2
+2025-04-01,Gold,$/troy oz,3218
+2025-04-01,Copper,$/mt,9177
+2025-04-01,Silver,$/troy oz,32.2
+2025-05-01,Gold,$/troy oz,3309
+2025-05-01,Copper,$/mt,9533
+2025-05-01,Silver,$/troy oz,32.8
+2025-06-01,Gold,$/troy oz,3353
+2025-06-01,Copper,$/mt,9835
+2025-06-01,Silver,$/troy oz,36
+2025-07-01,Gold,$/troy oz,3340
+2025-07-01,Copper,$/mt,9771
+2025-07-01,Silver,$/troy oz,37.7
+2025-08-01,Gold,$/troy oz,3368
+2025-08-01,Copper,$/mt,9670
+2025-08-01,Silver,$/troy oz,38.2
+2025-09-01,Gold,$/troy oz,3668
+2025-09-01,Copper,$/mt,9984
+2025-09-01,Silver,$/troy oz,42.8
+2025-10-01,Gold,$/troy oz,4058
+2025-10-01,Copper,$/mt,10740
+2025-10-01,Silver,$/troy oz,49.4
+2025-11-01,Gold,$/troy oz,4087
+2025-11-01,Copper,$/mt,10812
+2025-11-01,Silver,$/troy oz,50.4
+2025-12-01,Gold,$/troy oz,4309
+2025-12-01,Copper,$/mt,11785
+2025-12-01,Silver,$/troy oz,62.3
+2026-01-01,Gold,$/troy oz,4753
+2026-01-01,Copper,$/mt,13012
+2026-01-01,Silver,$/troy oz,92.1
+2026-02-01,Gold,$/troy oz,5020
+2026-02-01,Copper,$/mt,12951
+2026-02-01,Silver,$/troy oz,81.9
+2026-03-01,Gold,$/troy oz,4856
+2026-03-01,Copper,$/mt,12529
+2026-03-01,Silver,$/troy oz,77.9
+2026-04-01,Gold,$/troy oz,4721
+2026-04-01,Copper,$/mt,12951
+2026-04-01,Silver,$/troy oz,75.9
+2026-05-01,Gold,$/troy oz,4587
+2026-05-01,Copper,$/mt,13543
+2026-05-01,Silver,$/troy oz,78
+2026-06-01,Gold,$/troy oz,4228
+2026-06-01,Copper,$/mt,13552
+2026-06-01,Silver,$/troy oz,66.7
+2026-07-01,Gold,$/troy oz,4073
+2026-07-01,Copper,$/mt,13543
+2026-07-01,Silver,$/troy oz,58.8
+2026-08-01,Gold,$/troy oz,4411
+2026-08-01,Copper,$/mt,14326
+2026-08-01,Silver,$/troy oz,65.4
+2026-09-01,Gold,$/troy oz,4319
+2026-09-01,Copper,$/mt,14474
+2026-09-01,Silver,$/troy oz,64.6
+2026-10-01,Gold,$/troy oz,4105
+2026-10-01,Copper,$/mt,14508
+2026-10-01,Silver,$/troy oz,57

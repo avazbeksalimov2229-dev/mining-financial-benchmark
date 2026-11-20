@@ -1,0 +1,340 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "cash_table",
+  "position": {
+    "x": 24,
+    "y": 480,
+    "z": 12000,
+    "width": 1232,
+    "height": 228,
+    "tabOrder": 12000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_company"
+                    }
+                  },
+                  "Property": "company"
+                }
+              },
+              "queryRef": "dim_company.company",
+              "nativeQueryRef": "company",
+              "displayName": "Company"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Operating Cash Flow ($B)"
+                }
+              },
+              "queryRef": "_Measures.Operating Cash Flow ($B)",
+              "nativeQueryRef": "Operating Cash Flow ($B)",
+              "displayName": "Operating CF $B"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Capex ($B)"
+                }
+              },
+              "queryRef": "_Measures.Capex ($B)",
+              "nativeQueryRef": "Capex ($B)",
+              "displayName": "Capex $B"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Free Cash Flow ($B)"
+                }
+              },
+              "queryRef": "_Measures.Free Cash Flow ($B)",
+              "nativeQueryRef": "Free Cash Flow ($B)",
+              "displayName": "FCF $B"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Dividends Paid ($B)"
+                }
+              },
+              "queryRef": "_Measures.Dividends Paid ($B)",
+              "nativeQueryRef": "Dividends Paid ($B)",
+              "displayName": "Dividends $B"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Capex Intensity"
+                }
+              },
+              "queryRef": "_Measures.Capex Intensity",
+              "nativeQueryRef": "Capex Intensity",
+              "displayName": "Capex / revenue"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "FCF Margin"
+                }
+              },
+              "queryRef": "_Measures.FCF Margin",
+              "nativeQueryRef": "FCF Margin",
+              "displayName": "FCF margin"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Payout Ratio"
+                }
+              },
+              "queryRef": "_Measures.Payout Ratio",
+              "nativeQueryRef": "Payout Ratio",
+              "displayName": "Payout"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Operating Cash Flow ($B)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": false
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "0.0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "260.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "dim_company.company"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Operating Cash Flow ($B)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Capex ($B)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Free Cash Flow ($B)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Dividends Paid ($B)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Capex Intensity"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.FCF Margin"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "125.0D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Measures.Payout Ratio"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cash flow by company (royalty companies have no PP&E capex, so their FCF equals operating cash flow)'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11.0D"
+                }
+              }
+            },
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

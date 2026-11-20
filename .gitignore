@@ -1,0 +1,6 @@
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+.cache/
+__pycache__/
+*.pyc
+~$*.xlsx

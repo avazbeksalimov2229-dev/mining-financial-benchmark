@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.1.0/schema.json",
+  "pageOrder": [
+    "p1_overview",
+    "p2_profit",
+    "p3_cash",
+    "p4_balance",
+    "p5_company",
+    "p6_method"
+  ],
+  "activePageName": "p1_overview"
+}

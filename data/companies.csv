@@ -1,0 +1,17 @@
+ticker,company,ciks,segment,primary_metal,hq_country,reporting_standard,fye_month,sort_order,note
+NEM,Newmont,1164727,Gold miner,Gold,United States,US GAAP,12,1,
+B,Barrick Mining,756894,Gold miner,Gold,Canada,IFRS,12,2,Renamed from Barrick Gold in 2025
+AEM,Agnico Eagle Mines,2809,Gold miner,Gold,Canada,IFRS,12,3,
+KGC,Kinross Gold,701818,Gold miner,Gold,Canada,IFRS,12,4,
+GFI,Gold Fields,1172724,Gold miner,Gold,South Africa,IFRS,12,5,
+AU,AngloGold Ashanti,1067428|1973832,Gold miner,Gold,United Kingdom,IFRS,12,6,Two SEC registrants: AngloGold Ashanti Ltd (to 2022) and AngloGold Ashanti plc (from 2023)
+AGI,Alamos Gold,1178819,Gold miner,Gold,Canada,IFRS,12,7,
+IAG,IAMGOLD,1203464,Gold miner,Gold,Canada,IFRS,12,8,
+FCX,Freeport-McMoRan,831259,Copper miner,Copper,United States,US GAAP,12,9,
+SCCO,Southern Copper,1001838,Copper miner,Copper,United States,US GAAP,12,10,
+HBM,Hudbay Minerals,1322422,Copper miner,Copper,Canada,IFRS,12,11,
+BHP,BHP Group,811809,Diversified major,Copper,Australia,IFRS,6,12,Fiscal year ends 30 June
+RIO,Rio Tinto,863064,Diversified major,Copper,United Kingdom,IFRS,12,13,
+WPM,Wheaton Precious Metals,1323404,Royalty & streaming,Gold,Canada,IFRS,12,14,
+FNV,Franco-Nevada,1456346,Royalty & streaming,Gold,Canada,IFRS,12,15,
+RGLD,Royal Gold,85535,Royalty & streaming,Gold,United States,US GAAP,6,16,Fiscal year ended 30 June until 2022; calendar year from 2023

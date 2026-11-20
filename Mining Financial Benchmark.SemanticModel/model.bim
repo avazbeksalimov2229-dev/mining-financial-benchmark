@@ -1,0 +1,1108 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "sourceQueryCulture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "tables": [
+      {
+        "name": "fact_financials",
+        "columns": [
+          {
+            "name": "ticker",
+            "dataType": "string",
+            "sourceColumn": "ticker",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fiscal_year",
+            "dataType": "int64",
+            "sourceColumn": "fiscal_year",
+            "formatString": "0",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "period_end",
+            "dataType": "dateTime",
+            "sourceColumn": "period_end",
+            "formatString": "yyyy-mm-dd",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "metric",
+            "dataType": "string",
+            "sourceColumn": "metric",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "value_usd",
+            "dataType": "double",
+            "sourceColumn": "value_usd",
+            "formatString": "\\$#,0",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "xbrl_concept",
+            "dataType": "string",
+            "sourceColumn": "xbrl_concept",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "form",
+            "dataType": "string",
+            "sourceColumn": "form",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "filed",
+            "dataType": "dateTime",
+            "sourceColumn": "filed",
+            "formatString": "yyyy-mm-dd",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "accession",
+            "dataType": "string",
+            "sourceColumn": "accession",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cik",
+            "dataType": "string",
+            "sourceColumn": "cik",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "filing_url",
+            "dataType": "string",
+            "sourceColumn": "filing_url",
+            "summarizeBy": "none",
+            "dataCategory": "WebUrl"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_financials",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Companies = #table(type table [ticker = text, cik = text], {",
+                "        {\"NEM\", \"1164727\"}, {\"B\", \"756894\"}, {\"AEM\", \"2809\"}, {\"KGC\", \"701818\"}, {\"GFI\", \"1172724\"},",
+                "        {\"AU\", \"1067428\"}, {\"AU\", \"1973832\"}, {\"AGI\", \"1178819\"}, {\"IAG\", \"1203464\"}, {\"FCX\", \"831259\"},",
+                "        {\"SCCO\", \"1001838\"}, {\"HBM\", \"1322422\"}, {\"BHP\", \"811809\"}, {\"RIO\", \"863064\"}, {\"WPM\", \"1323404\"},",
+                "        {\"FNV\", \"1456346\"}, {\"RGLD\", \"85535\"}}),",
+                "    ConceptMap = #table(type table [metric = text, taxonomy = text, concept = text, period_type = text, priority = Int64.Type], {",
+                "        {\"Revenue\", \"us-gaap\", \"Revenues\", \"duration\", 1},",
+                "        {\"Revenue\", \"us-gaap\", \"RevenueFromContractWithCustomerExcludingAssessedTax\", \"duration\", 2},",
+                "        {\"Revenue\", \"us-gaap\", \"SalesRevenueNet\", \"duration\", 3},",
+                "        {\"Revenue\", \"ifrs-full\", \"Revenue\", \"duration\", 4},",
+                "        {\"Revenue\", \"ifrs-full\", \"RevenueFromContractsWithCustomers\", \"duration\", 5},",
+                "        {\"Profit before tax\", \"us-gaap\", \"IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest\", \"duration\", 1},",
+                "        {\"Profit before tax\", \"us-gaap\", \"IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments\", \"duration\", 2},",
+                "        {\"Profit before tax\", \"ifrs-full\", \"ProfitLossBeforeTax\", \"duration\", 3},",
+                "        {\"Net income\", \"us-gaap\", \"NetIncomeLoss\", \"duration\", 1},",
+                "        {\"Net income\", \"us-gaap\", \"NetIncomeLossAvailableToCommonStockholdersBasic\", \"duration\", 2},",
+                "        {\"Net income\", \"ifrs-full\", \"ProfitLossAttributableToOwnersOfParent\", \"duration\", 3},",
+                "        {\"Net income\", \"ifrs-full\", \"ProfitLoss\", \"duration\", 4},",
+                "        {\"Depreciation & amortization\", \"us-gaap\", \"DepreciationDepletionAndAmortization\", \"duration\", 1},",
+                "        {\"Depreciation & amortization\", \"us-gaap\", \"DepreciationAndAmortization\", \"duration\", 2},",
+                "        {\"Depreciation & amortization\", \"ifrs-full\", \"DepreciationAndAmortisationExpense\", \"duration\", 3},",
+                "        {\"Depreciation & amortization\", \"ifrs-full\", \"AdjustmentsForDepreciationAndAmortisationExpense\", \"duration\", 4},",
+                "        {\"Depreciation & amortization\", \"ifrs-full\", \"DepreciationExpense\", \"duration\", 5},",
+                "        {\"Operating cash flow\", \"us-gaap\", \"NetCashProvidedByUsedInOperatingActivities\", \"duration\", 1},",
+                "        {\"Operating cash flow\", \"us-gaap\", \"NetCashProvidedByUsedInOperatingActivitiesContinuingOperations\", \"duration\", 2},",
+                "        {\"Operating cash flow\", \"ifrs-full\", \"CashFlowsFromUsedInOperatingActivities\", \"duration\", 3},",
+                "        {\"Capex\", \"us-gaap\", \"PaymentsToAcquirePropertyPlantAndEquipment\", \"duration\", 1},",
+                "        {\"Capex\", \"us-gaap\", \"PaymentsToAcquireProductiveAssets\", \"duration\", 2},",
+                "        {\"Capex\", \"us-gaap\", \"PaymentsToAcquireMiningAssets\", \"duration\", 3},",
+                "        {\"Capex\", \"ifrs-full\", \"PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities\", \"duration\", 4},",
+                "        {\"Capex\", \"ifrs-full\", \"PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets\", \"duration\", 5},",
+                "        {\"Capex\", \"ifrs-full\", \"PurchaseOfMiningAssetsClassifiedAsInvestingActivities\", \"duration\", 6},",
+                "        {\"Dividends paid\", \"us-gaap\", \"PaymentsOfDividendsCommonStock\", \"duration\", 1},",
+                "        {\"Dividends paid\", \"us-gaap\", \"PaymentsOfDividends\", \"duration\", 2},",
+                "        {\"Dividends paid\", \"ifrs-full\", \"DividendsPaidToEquityHoldersOfParentClassifiedAsFinancingActivities\", \"duration\", 3},",
+                "        {\"Dividends paid\", \"ifrs-full\", \"DividendsPaidClassifiedAsFinancingActivities\", \"duration\", 4},",
+                "        {\"Total assets\", \"us-gaap\", \"Assets\", \"instant\", 1},",
+                "        {\"Total assets\", \"ifrs-full\", \"Assets\", \"instant\", 2},",
+                "        {\"Cash\", \"us-gaap\", \"CashAndCashEquivalentsAtCarryingValue\", \"instant\", 1},",
+                "        {\"Cash\", \"ifrs-full\", \"CashAndCashEquivalents\", \"instant\", 2},",
+                "        {\"Total debt\", \"us-gaap\", \"LongTermDebt\", \"instant\", 1},",
+                "        {\"Total debt\", \"us-gaap\", \"DebtLongtermAndShorttermCombinedAmount\", \"instant\", 2},",
+                "        {\"Total debt\", \"us-gaap\", \"LongTermDebtNoncurrent\", \"instant\", 3},",
+                "        {\"Total debt\", \"ifrs-full\", \"Borrowings\", \"instant\", 4},",
+                "        {\"Total debt\", \"ifrs-full\", \"LongtermBorrowings\", \"instant\", 5},",
+                "        {\"Total debt\", \"ifrs-full\", \"NoncurrentPortionOfNoncurrentBorrowings\", \"instant\", 6},",
+                "        {\"Shareholders' equity\", \"us-gaap\", \"StockholdersEquity\", \"instant\", 1},",
+                "        {\"Shareholders' equity\", \"ifrs-full\", \"EquityAttributableToOwnersOfParent\", \"instant\", 2},",
+                "        {\"Shareholders' equity\", \"ifrs-full\", \"Equity\", \"instant\", 3}}),",
+                "    AnnualForms = {\"10-K\", \"10-K/A\", \"10-KT\", \"10-KT/A\", \"20-F\", \"20-F/A\", \"40-F\", \"40-F/A\"},",
+                "",
+                "    WithFacts = Table.AddColumn(Companies, \"facts\", each fnCompanyFacts([cik])),",
+                "    WithMap = Table.AddColumn(WithFacts, \"map\", each ConceptMap),",
+                "    Pairs = Table.ExpandTableColumn(WithMap, \"map\", {\"metric\", \"taxonomy\", \"concept\", \"period_type\", \"priority\"}),",
+                "    Values = Table.AddColumn(Pairs, \"values\", each",
+                "        let c = Record.FieldOrDefault(Record.FieldOrDefault([facts], [taxonomy], []), [concept], null)",
+                "        in if c = null then {} else Record.FieldOrDefault(c[units], \"USD\", {})),",
+                "    Slim = Table.RemoveColumns(Values, {\"facts\"}),",
+                "    Listed = Table.SelectRows(Table.ExpandListColumn(Slim, \"values\"), each [values] <> null),",
+                "    Fields = Table.ExpandRecordColumn(Listed, \"values\", {\"start\", \"end\", \"val\", \"form\", \"filed\", \"accn\"}),",
+                "    Annual = Table.SelectRows(Fields, each List.Contains(AnnualForms, [form])),",
+                "    Typed = Table.TransformColumnTypes(Annual, {{\"start\", type date}, {\"end\", type date}, {\"filed\", type date},",
+                "        {\"val\", type number}}, \"en-US\"),",
+                "    Flows = Table.SelectRows(Typed, each [period_type] = \"duration\" and [start] <> null",
+                "        and Duration.Days([end] - [start]) >= 350 and Duration.Days([end] - [start]) <= 380),",
+                "    YearEnds = Table.RenameColumns(Table.Distinct(Table.SelectColumns(Flows, {\"ticker\", \"end\"})),",
+                "        {{\"ticker\", \"ye_ticker\"}, {\"end\", \"ye_end\"}}),",
+                "    Instants = Table.SelectRows(Typed, each [period_type] = \"instant\" and [start] = null),",
+                "    Balances = Table.RemoveColumns(Table.Join(Instants, {\"ticker\", \"end\"}, YearEnds, {\"ye_ticker\", \"ye_end\"},",
+                "        JoinKind.Inner), {\"ye_ticker\", \"ye_end\"}),",
+                "    Kept = Table.Combine({Flows, Balances}),",
+                "    WithYear = Table.AddColumn(Kept, \"fiscal_year\", each Date.Year([end]), Int64.Type),",
+                "    InRange = Table.SelectRows(WithYear, each [fiscal_year] >= 2016 and [fiscal_year] <= 2025),",
+                "    Sorted = Table.Buffer(Table.Sort(InRange, {{\"priority\", Order.Ascending}, {\"filed\", Order.Descending}})),",
+                "    Best = Table.Group(Sorted, {\"ticker\", \"fiscal_year\", \"metric\"}, {{\"row\", each Table.First(_), type record}}),",
+                "    Expanded = Table.ExpandRecordColumn(Best, \"row\", {\"end\", \"val\", \"taxonomy\", \"concept\", \"form\", \"filed\", \"accn\", \"cik\"}),",
+                "    Concept = Table.AddColumn(Expanded, \"xbrl_concept\", each [taxonomy] & \":\" & [concept], type text),",
+                "    Renamed = Table.RenameColumns(",
+                "        Table.SelectColumns(Concept, {\"ticker\", \"fiscal_year\", \"end\", \"metric\", \"val\", \"xbrl_concept\", \"form\", \"filed\", \"accn\", \"cik\"}),",
+                "        {{\"end\", \"period_end\"}, {\"val\", \"value_usd\"}, {\"accn\", \"accession\"}}),",
+                "    Typed2 = Table.TransformColumnTypes(Renamed, {{\"ticker\", type text}, {\"fiscal_year\", Int64.Type}, {\"period_end\", type date},",
+                "        {\"metric\", type text}, {\"value_usd\", type number}, {\"xbrl_concept\", type text}, {\"form\", type text},",
+                "        {\"filed\", type date}, {\"accession\", type text}, {\"cik\", type text}}),",
+                "    Final = Table.AddColumn(Typed2, \"filing_url\", each \"https://www.sec.gov/Archives/edgar/data/\" & [cik] & \"/\"",
+                "        & Text.Remove([accession], \"-\") & \"/\", type text)",
+                "in",
+                "    Final"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_metal_prices",
+        "columns": [
+          {
+            "name": "month_start",
+            "dataType": "dateTime",
+            "sourceColumn": "month_start",
+            "formatString": "mmm yyyy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "metal",
+            "dataType": "string",
+            "sourceColumn": "metal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unit",
+            "dataType": "string",
+            "sourceColumn": "unit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "price_usd",
+            "dataType": "double",
+            "sourceColumn": "price_usd",
+            "formatString": "\\$#,0",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "formatString": "0",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_metal_prices",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(Web.Contents(\"https://thedocs.worldbank.org\", [RelativePath = WorldBankFile]), null, true),",
+                "    Sheet = Source{[Item = \"Monthly Prices\", Kind = \"Sheet\"]}[Data],",
+                "    Headers = Table.PromoteHeaders(Table.Skip(Sheet, 4), [PromoteAllScalars = true]),",
+                "    Renamed = Table.RenameColumns(Headers, {{Table.ColumnNames(Headers){0}, \"period\"}}),",
+                "    Kept = Table.SelectColumns(Renamed, {\"period\", \"Gold\", \"Copper\", \"Silver\"}),",
+                "    Months = Table.SelectRows(Kept, each [period] <> null and Text.Contains(Text.From([period]), \"M\")),",
+                "    Long = Table.UnpivotOtherColumns(Months, {\"period\"}, \"metal\", \"price_usd\"),",
+                "    Numbers = Table.SelectRows(Long, each Value.Is([price_usd], type number)),",
+                "    MonthStart = Table.AddColumn(Numbers, \"month_start\", each",
+                "        #date(Number.From(Text.BeforeDelimiter([period], \"M\")), Number.From(Text.AfterDelimiter([period], \"M\")), 1), type date),",
+                "    Unit = Table.AddColumn(MonthStart, \"unit\", each if [metal] = \"Copper\" then \"$/mt\" else \"$/troy oz\", type text),",
+                "    Kept2 = Table.SelectColumns(Unit, {\"month_start\", \"metal\", \"unit\", \"price_usd\"}),",
+                "    Typed = Table.TransformColumnTypes(Kept2, {{\"metal\", type text}, {\"price_usd\", type number}}),",
+                "    WithYear = Table.AddColumn(Typed, \"year\", each Date.Year([month_start]), Int64.Type),",
+                "    Final = Table.SelectRows(WithYear, each [year] >= 2016 and [year] <= 2025)",
+                "in",
+                "    Final"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_company",
+        "columns": [
+          {
+            "name": "ticker",
+            "dataType": "string",
+            "sourceColumn": "ticker",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "company",
+            "dataType": "string",
+            "sourceColumn": "company",
+            "summarizeBy": "none",
+            "sortByColumn": "sort_order"
+          },
+          {
+            "name": "segment",
+            "dataType": "string",
+            "sourceColumn": "segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "primary_metal",
+            "dataType": "string",
+            "sourceColumn": "primary_metal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hq_country",
+            "dataType": "string",
+            "sourceColumn": "hq_country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "reporting_standard",
+            "dataType": "string",
+            "sourceColumn": "reporting_standard",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sort_order",
+            "dataType": "int64",
+            "sourceColumn": "sort_order",
+            "formatString": "0",
+            "summarizeBy": "none",
+            "isHidden": true
+          },
+          {
+            "name": "note",
+            "dataType": "string",
+            "sourceColumn": "note",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "company_label",
+            "dataType": "string",
+            "sourceColumn": "company_label",
+            "summarizeBy": "none",
+            "sortByColumn": "sort_order"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_company",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #table(type table [ticker = text, company = text, segment = text, primary_metal = text, hq_country = text,",
+                "        reporting_standard = text, sort_order = Int64.Type, note = text], {",
+                "        {\"NEM\", \"Newmont\", \"Gold miner\", \"Gold\", \"United States\", \"US GAAP\", 1, \"\"},",
+                "        {\"B\", \"Barrick Mining\", \"Gold miner\", \"Gold\", \"Canada\", \"IFRS\", 2, \"Renamed from Barrick Gold in 2025\"},",
+                "        {\"AEM\", \"Agnico Eagle Mines\", \"Gold miner\", \"Gold\", \"Canada\", \"IFRS\", 3, \"\"},",
+                "        {\"KGC\", \"Kinross Gold\", \"Gold miner\", \"Gold\", \"Canada\", \"IFRS\", 4, \"\"},",
+                "        {\"GFI\", \"Gold Fields\", \"Gold miner\", \"Gold\", \"South Africa\", \"IFRS\", 5, \"\"},",
+                "        {\"AU\", \"AngloGold Ashanti\", \"Gold miner\", \"Gold\", \"United Kingdom\", \"IFRS\", 6, \"Two SEC registrants: Ltd (to 2022) and plc (from 2023)\"},",
+                "        {\"AGI\", \"Alamos Gold\", \"Gold miner\", \"Gold\", \"Canada\", \"IFRS\", 7, \"\"},",
+                "        {\"IAG\", \"IAMGOLD\", \"Gold miner\", \"Gold\", \"Canada\", \"IFRS\", 8, \"\"},",
+                "        {\"FCX\", \"Freeport-McMoRan\", \"Copper miner\", \"Copper\", \"United States\", \"US GAAP\", 9, \"\"},",
+                "        {\"SCCO\", \"Southern Copper\", \"Copper miner\", \"Copper\", \"United States\", \"US GAAP\", 10, \"\"},",
+                "        {\"HBM\", \"Hudbay Minerals\", \"Copper miner\", \"Copper\", \"Canada\", \"IFRS\", 11, \"\"},",
+                "        {\"BHP\", \"BHP Group\", \"Diversified major\", \"Copper\", \"Australia\", \"IFRS\", 12, \"Fiscal year ends 30 June\"},",
+                "        {\"RIO\", \"Rio Tinto\", \"Diversified major\", \"Copper\", \"United Kingdom\", \"IFRS\", 13, \"\"},",
+                "        {\"WPM\", \"Wheaton Precious Metals\", \"Royalty & streaming\", \"Gold\", \"Canada\", \"IFRS\", 14, \"\"},",
+                "        {\"FNV\", \"Franco-Nevada\", \"Royalty & streaming\", \"Gold\", \"Canada\", \"IFRS\", 15, \"\"},",
+                "        {\"RGLD\", \"Royal Gold\", \"Royalty & streaming\", \"Gold\", \"United States\", \"US GAAP\", 16, \"Fiscal year ended 30 June until 2022\"}}),",
+                "    Label = Table.AddColumn(Source, \"company_label\", each [company] & \" (\" & [ticker] & \")\", type text)",
+                "in",
+                "    Label"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_metric",
+        "columns": [
+          {
+            "name": "metric",
+            "dataType": "string",
+            "sourceColumn": "metric",
+            "summarizeBy": "none",
+            "sortByColumn": "sort_order"
+          },
+          {
+            "name": "statement",
+            "dataType": "string",
+            "sourceColumn": "statement",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sort_order",
+            "dataType": "int64",
+            "sourceColumn": "sort_order",
+            "formatString": "0",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_metric",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #table(type table [metric = text, statement = text, sort_order = Int64.Type], {",
+                "        {\"Revenue\", \"Income statement\", 1}, {\"Profit before tax\", \"Income statement\", 2},",
+                "        {\"Net income\", \"Income statement\", 3}, {\"Depreciation & amortization\", \"Income statement\", 4},",
+                "        {\"Operating cash flow\", \"Cash flow\", 5}, {\"Capex\", \"Cash flow\", 6}, {\"Dividends paid\", \"Cash flow\", 7},",
+                "        {\"Total assets\", \"Balance sheet\", 8}, {\"Cash\", \"Balance sheet\", 9}, {\"Total debt\", \"Balance sheet\", 10},",
+                "        {\"Shareholders' equity\", \"Balance sheet\", 11}})",
+                "in",
+                "    Source"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_year",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Year",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "[Year]",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_year",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "SELECTCOLUMNS ( GENERATESERIES ( 2016, 2025, 1 ), \"Year\", [Value] )"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rank By",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Rank By",
+            "dataType": "string",
+            "isNameInferred": false,
+            "isDataTypeInferred": true,
+            "sourceColumn": "[Value1]",
+            "sortByColumn": "Rank By Order",
+            "summarizeBy": "none",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "Rank By Fields"
+                }
+              ]
+            }
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Rank By Fields",
+            "dataType": "string",
+            "isNameInferred": false,
+            "isDataTypeInferred": true,
+            "sourceColumn": "[Value2]",
+            "sortByColumn": "Rank By Order",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "extendedProperties": [
+              {
+                "type": "json",
+                "name": "ParameterMetadata",
+                "value": {
+                  "version": 3,
+                  "kind": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Rank By Order",
+            "dataType": "int64",
+            "isNameInferred": false,
+            "isDataTypeInferred": true,
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Rank By",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "{\n    ( \"Revenue ($B)\", NAMEOF ( '_Measures'[Revenue ($B)] ), 0 ),\n    ( \"Net income ($B)\", NAMEOF ( '_Measures'[Net Income ($B)] ), 1 ),\n    ( \"Free cash flow ($B)\", NAMEOF ( '_Measures'[Free Cash Flow ($B)] ), 2 ),\n    ( \"Net margin\", NAMEOF ( '_Measures'[Net Margin] ), 3 ),\n    ( \"FCF margin\", NAMEOF ( '_Measures'[FCF Margin] ), 4 )\n}"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "columns": [
+          {
+            "name": "Placeholder",
+            "dataType": "string",
+            "sourceColumn": "Placeholder",
+            "summarizeBy": "none",
+            "isHidden": true
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #table(type table [Placeholder = text], {})",
+                "in",
+                "    Source"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Value",
+            "expression": "SUM ( fact_financials[value_usd] )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Amount ($M)",
+            "expression": "DIVIDE ( [Value], 1e6 )",
+            "formatString": "#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Revenue",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Revenue\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Profit Before Tax",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Profit before tax\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Net Income",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Net income\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Depreciation & Amortization",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Depreciation & amortization\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Operating Cash Flow",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Operating cash flow\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Capex",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Capex\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Dividends Paid",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Dividends paid\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Total Assets",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Total assets\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Cash",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Cash\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Total Debt",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Total debt\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Shareholders Equity",
+            "expression": "CALCULATE ( [Value], dim_metric[metric] = \"Shareholders' equity\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Free Cash Flow",
+            "expression": [
+              "VAR ocf = [Operating Cash Flow]",
+              "RETURN IF ( NOT ISBLANK ( ocf ), ocf - [Capex] )"
+            ],
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Net Debt",
+            "expression": [
+              "VAR c = [Cash]",
+              "VAR d = [Total Debt]",
+              "RETURN IF ( NOT ISBLANK ( c ) || NOT ISBLANK ( d ), d - c )"
+            ],
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Cash After Dividends",
+            "expression": "[Free Cash Flow] - [Dividends Paid]",
+            "formatString": "\\$#,0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Revenue ($B)",
+            "expression": "DIVIDE ( [Revenue], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Net Income ($B)",
+            "expression": "DIVIDE ( [Net Income], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Free Cash Flow ($B)",
+            "expression": "DIVIDE ( [Free Cash Flow], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Net Debt ($B)",
+            "expression": "DIVIDE ( [Net Debt], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Operating Cash Flow ($B)",
+            "expression": "DIVIDE ( [Operating Cash Flow], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Capex ($B)",
+            "expression": "DIVIDE ( [Capex], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Dividends Paid ($B)",
+            "expression": "DIVIDE ( [Dividends Paid], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Cash After Dividends ($B)",
+            "expression": "DIVIDE ( [Cash After Dividends], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Total Debt ($B)",
+            "expression": "DIVIDE ( [Total Debt], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Cash ($B)",
+            "expression": "DIVIDE ( [Cash], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Shareholders Equity ($B)",
+            "expression": "DIVIDE ( [Shareholders Equity], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Total Assets ($B)",
+            "expression": "DIVIDE ( [Total Assets], 1e9 )",
+            "formatString": "\\$#,0.0",
+            "displayFolder": "1 Amounts"
+          },
+          {
+            "name": "Net Margin",
+            "expression": "DIVIDE ( [Net Income], [Revenue] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Pre-tax Margin",
+            "expression": "DIVIDE ( [Profit Before Tax], [Revenue] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "OCF Margin",
+            "expression": "DIVIDE ( [Operating Cash Flow], [Revenue] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "FCF Margin",
+            "expression": "DIVIDE ( [Free Cash Flow], [Revenue] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Capex Intensity",
+            "expression": "DIVIDE ( [Capex], [Revenue] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Payout Ratio",
+            "expression": [
+              "VAR ni = [Net Income]",
+              "RETURN IF ( ni > 0, DIVIDE ( [Dividends Paid], ni ) )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Return on Equity",
+            "expression": "DIVIDE ( [Net Income], [Shareholders Equity] )",
+            "formatString": "0.0%",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Net Debt to OCF",
+            "expression": "DIVIDE ( [Net Debt], [Operating Cash Flow] )",
+            "formatString": "0.0",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Debt to Equity",
+            "expression": "DIVIDE ( [Total Debt], [Shareholders Equity] )",
+            "formatString": "0.00",
+            "displayFolder": "2 Ratios"
+          },
+          {
+            "name": "Revenue YoY %",
+            "expression": [
+              "VAR y = MAX ( dim_year[Year] )",
+              "VAR t =",
+              "    ADDCOLUMNS (",
+              "        VALUES ( dim_company[ticker] ),",
+              "        \"@cur\", [Revenue],",
+              "        \"@prev\", CALCULATE ( [Revenue], dim_year[Year] = y - 1 )",
+              "    )",
+              "VAR both = FILTER ( t, NOT ISBLANK ( [@cur] ) && NOT ISBLANK ( [@prev] ) )",
+              "RETURN DIVIDE ( SUMX ( both, [@cur] ) - SUMX ( both, [@prev] ), SUMX ( both, [@prev] ) )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "3 Growth"
+          },
+          {
+            "name": "Net Income YoY %",
+            "expression": [
+              "VAR y = MAX ( dim_year[Year] )",
+              "VAR t =",
+              "    ADDCOLUMNS (",
+              "        VALUES ( dim_company[ticker] ),",
+              "        \"@cur\", [Net Income],",
+              "        \"@prev\", CALCULATE ( [Net Income], dim_year[Year] = y - 1 )",
+              "    )",
+              "VAR both = FILTER ( t, NOT ISBLANK ( [@cur] ) && NOT ISBLANK ( [@prev] ) )",
+              "VAR prev = SUMX ( both, [@prev] )",
+              "RETURN IF ( prev > 0, DIVIDE ( SUMX ( both, [@cur] ) - prev, prev ) )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "3 Growth"
+          },
+          {
+            "name": "Revenue Index (2016 base)",
+            "expression": [
+              "VAR t =",
+              "    ADDCOLUMNS (",
+              "        VALUES ( dim_company[ticker] ),",
+              "        \"@cur\", [Revenue],",
+              "        \"@base\", CALCULATE ( [Revenue], dim_year[Year] = 2016 )",
+              "    )",
+              "VAR both = FILTER ( t, NOT ISBLANK ( [@cur] ) && NOT ISBLANK ( [@base] ) )",
+              "RETURN DIVIDE ( SUMX ( both, [@cur] ), SUMX ( both, [@base] ) ) * 100"
+            ],
+            "formatString": "0",
+            "displayFolder": "3 Growth"
+          },
+          {
+            "name": "Companies Reporting",
+            "expression": "COUNTROWS ( FILTER ( VALUES ( dim_company[ticker] ), NOT ISBLANK ( [Revenue] ) ) )",
+            "formatString": "#,0",
+            "displayFolder": "3 Growth"
+          },
+          {
+            "name": "Revenue Rank",
+            "expression": "IF ( NOT ISBLANK ( [Revenue] ), RANKX ( ALLSELECTED ( dim_company[company] ), [Revenue] ) )",
+            "formatString": "#,0",
+            "displayFolder": "3 Growth"
+          },
+          {
+            "name": "Gold Price",
+            "expression": "CALCULATE ( AVERAGE ( fact_metal_prices[price_usd] ), fact_metal_prices[metal] = \"Gold\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Copper Price",
+            "expression": "CALCULATE ( AVERAGE ( fact_metal_prices[price_usd] ), fact_metal_prices[metal] = \"Copper\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Silver Price",
+            "expression": "CALCULATE ( AVERAGE ( fact_metal_prices[price_usd] ), fact_metal_prices[metal] = \"Silver\" )",
+            "formatString": "\\$#,0",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Gold Price YoY %",
+            "expression": [
+              "VAR y = MAX ( dim_year[Year] )",
+              "VAR prev = CALCULATE ( [Gold Price], dim_year[Year] = y - 1 )",
+              "RETURN DIVIDE ( [Gold Price] - prev, prev )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Copper Price YoY %",
+            "expression": [
+              "VAR y = MAX ( dim_year[Year] )",
+              "VAR prev = CALCULATE ( [Copper Price], dim_year[Year] = y - 1 )",
+              "RETURN DIVIDE ( [Copper Price] - prev, prev )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Gold Price Index (2016 base)",
+            "expression": "DIVIDE ( [Gold Price], CALCULATE ( [Gold Price], dim_year[Year] = 2016 ) ) * 100",
+            "formatString": "0",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Copper Price Index (2016 base)",
+            "expression": "DIVIDE ( [Copper Price], CALCULATE ( [Copper Price], dim_year[Year] = 2016 ) ) * 100",
+            "formatString": "0",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Main Metal Price",
+            "expression": "SWITCH ( SELECTEDVALUE ( dim_company[primary_metal] ), \"Gold\", [Gold Price], \"Copper\", [Copper Price] )",
+            "formatString": "\\$#,0",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Main Metal Price YoY %",
+            "expression": [
+              "SWITCH (",
+              "    SELECTEDVALUE ( dim_company[primary_metal] ),",
+              "    \"Gold\", [Gold Price YoY %],",
+              "    \"Copper\", [Copper Price YoY %]",
+              ")"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "4 Prices"
+          },
+          {
+            "name": "Net Margin (Segment Median)",
+            "expression": [
+              "VAR seg = SELECTEDVALUE ( dim_company[segment] )",
+              "RETURN MEDIANX ( FILTER ( ALL ( dim_company ), dim_company[segment] = seg ), [Net Margin] )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "5 Peers"
+          },
+          {
+            "name": "FCF Margin (Segment Median)",
+            "expression": [
+              "VAR seg = SELECTEDVALUE ( dim_company[segment] )",
+              "RETURN MEDIANX ( FILTER ( ALL ( dim_company ), dim_company[segment] = seg ), [FCF Margin] )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "5 Peers"
+          },
+          {
+            "name": "Net Debt to OCF (Segment Median)",
+            "expression": [
+              "VAR seg = SELECTEDVALUE ( dim_company[segment] )",
+              "RETURN MEDIANX ( FILTER ( ALL ( dim_company ), dim_company[segment] = seg ), [Net Debt to OCF] )"
+            ],
+            "formatString": "0.0",
+            "displayFolder": "5 Peers"
+          },
+          {
+            "name": "Return on Equity (Segment Median)",
+            "expression": [
+              "VAR seg = SELECTEDVALUE ( dim_company[segment] )",
+              "RETURN MEDIANX ( FILTER ( ALL ( dim_company ), dim_company[segment] = seg ), [Return on Equity] )"
+            ],
+            "formatString": "0.0%",
+            "displayFolder": "5 Peers"
+          },
+          {
+            "name": "Margin Color",
+            "expression": [
+              "VAR m = [Net Margin]",
+              "RETURN",
+              "    SWITCH ( TRUE (), ISBLANK ( m ), BLANK (), m < 0, \"#C0392B\", m < 0.10, \"#E8B04B\", m < 0.25, \"#8DB580\", \"#2E8B57\" )"
+            ],
+            "displayFolder": "6 Colors"
+          },
+          {
+            "name": "Net Debt Color",
+            "expression": "IF ( [Net Debt] > 0, \"#B87333\", \"#2E8B57\" )",
+            "displayFolder": "6 Colors"
+          },
+          {
+            "name": "Growth Color",
+            "expression": "IF ( [Revenue YoY %] < 0, \"#C0392B\", \"#2E8B57\" )",
+            "displayFolder": "6 Colors"
+          },
+          {
+            "name": "Margin Heat Color",
+            "expression": [
+              "VAR m = [Net Margin]",
+              "RETURN",
+              "    SWITCH (",
+              "        TRUE (),",
+              "        ISBLANK ( m ), BLANK (),",
+              "        m < -0.10, \"#E8A39B\",",
+              "        m < 0, \"#F4CDC8\",",
+              "        m < 0.10, \"#F7E8C6\",",
+              "        m < 0.20, \"#E3EFD9\",",
+              "        m < 0.35, \"#C2DFB4\",",
+              "        \"#9CCB8A\"",
+              "    )"
+            ],
+            "displayFolder": "6 Colors"
+          },
+          {
+            "name": "Selected Year",
+            "expression": "SELECTEDVALUE ( dim_year[Year], MAX ( dim_year[Year] ) )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Revenue Sub",
+            "expression": "FORMAT ( [Revenue YoY %], \"+0%;-0%\" ) & \" like-for-like vs \" & ( [Selected Year] - 1 )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Net Income Sub",
+            "expression": "\"Net margin \" & FORMAT ( [Net Margin], \"0.0%\" )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI FCF Sub",
+            "expression": "\"FCF margin \" & FORMAT ( [FCF Margin], \"0.0%\" )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Gold Sub",
+            "expression": "FORMAT ( [Gold Price YoY %], \"+0%;-0%\" ) & \" vs \" & ( [Selected Year] - 1 ) & \" · $/troy oz\"",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Copper Sub",
+            "expression": "FORMAT ( [Copper Price YoY %], \"+0%;-0%\" ) & \" vs \" & ( [Selected Year] - 1 ) & \" · $/tonne\"",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Net Debt Sub",
+            "expression": [
+              "VAR r = [Net Debt to OCF]",
+              "RETURN IF ( [Net Debt] < 0, \"Net cash\", FORMAT ( r, \"0.0\" ) & \" years of OCF\" )"
+            ],
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Peer Margin Sub",
+            "expression": "\"Segment median \" & FORMAT ( [Net Margin (Segment Median)], \"0.0%\" )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Peer FCF Sub",
+            "expression": "\"Segment median \" & FORMAT ( [FCF Margin (Segment Median)], \"0.0%\" )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "KPI Peer ROE Sub",
+            "expression": "\"Segment median \" & FORMAT ( [Return on Equity (Segment Median)], \"0.0%\" )",
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "Title Company",
+            "expression": [
+              "VAR c = SELECTEDVALUE ( dim_company[company], \"Select one company\" )",
+              "RETURN",
+              "    IF (",
+              "        HASONEVALUE ( dim_company[ticker] ),",
+              "        c & \"  ·  \" & SELECTEDVALUE ( dim_company[segment] ) & \"  ·  \" & SELECTEDVALUE ( dim_company[hq_country] )",
+              "            & \"  ·  \" & SELECTEDVALUE ( dim_company[reporting_standard] ),",
+              "        c",
+              "    )"
+            ],
+            "displayFolder": "9 Labels"
+          },
+          {
+            "name": "Latest Filing",
+            "expression": "\"Latest SEC filing in the data: \" & FORMAT ( CALCULATE ( MAX ( fact_financials[filed] ), REMOVEFILTERS () ), \"d mmm yyyy\" )",
+            "displayFolder": "9 Labels"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "b152d669-5ad3-50a3-9f23-7809a426d128",
+        "fromTable": "fact_financials",
+        "fromColumn": "ticker",
+        "toTable": "dim_company",
+        "toColumn": "ticker"
+      },
+      {
+        "name": "31b52202-56f0-54be-b7e2-735d499257b8",
+        "fromTable": "fact_financials",
+        "fromColumn": "metric",
+        "toTable": "dim_metric",
+        "toColumn": "metric"
+      },
+      {
+        "name": "36288003-b390-50eb-81a1-afa7c3967ba6",
+        "fromTable": "fact_financials",
+        "fromColumn": "fiscal_year",
+        "toTable": "dim_year",
+        "toColumn": "Year"
+      },
+      {
+        "name": "9a6aef54-1de5-5a1c-8709-e6363ee8d662",
+        "fromTable": "fact_metal_prices",
+        "fromColumn": "year",
+        "toTable": "dim_year",
+        "toColumn": "Year"
+      }
+    ],
+    "expressions": [
+      {
+        "name": "SecUserAgent",
+        "kind": "m",
+        "expression": "\"MiningFinancialBenchmark/1.0 portfolio-research\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ]
+      },
+      {
+        "name": "WorldBankFile",
+        "kind": "m",
+        "expression": "\"en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ]
+      },
+      {
+        "name": "fnCompanyFacts",
+        "kind": "m",
+        "expression": [
+          "(cik as text) as record =>",
+          "let",
+          "    Response = Web.Contents(\"https://data.sec.gov\", [",
+          "        RelativePath = \"api/xbrl/companyfacts/CIK\" & Text.PadStart(cik, 10, \"0\") & \".json\",",
+          "        Headers = [#\"User-Agent\" = SecUserAgent]",
+          "    ]),",
+          "    Facts = Json.Document(Response)[facts]",
+          "in",
+          "    Facts"
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ]
+  }
+}

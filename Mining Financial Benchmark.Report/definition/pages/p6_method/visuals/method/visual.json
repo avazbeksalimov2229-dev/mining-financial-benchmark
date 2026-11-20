@@ -1,0 +1,269 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "method",
+  "position": {
+    "x": 24,
+    "y": 88,
+    "z": 3000,
+    "width": 460,
+    "height": 620,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Sources",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• SEC EDGAR XBRL company facts API: annual reports (10-K, 20-F, 40-F) of 16 companies, in US dollars.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• World Bank Commodity Price Data (Pink Sheet): monthly gold, copper and silver prices, CC BY 4.0.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "How a number is chosen",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "1. Only annual reports. Flows must cover 350–380 days; balances are taken at the fiscal year-end.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "2. Each metric has a ranked list of XBRL concepts (US GAAP and IFRS names). The best available one wins.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "3. If a value was restated, the latest filing wins.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "4. Fiscal year = calendar year of the period end (BHP's year ends in June).",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Read with care",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Royalty and streaming companies buy streams, not plant: their free cash flow equals operating cash flow.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Debt is the borrowings each company tags; leases are not included.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Gold Fields had not filed its 2025 annual report in XBRL when the data was pulled.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "• Ratios divide totals, so a segment margin weights big companies more.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " ",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Refresh",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Power Query calls both sources at every refresh; no local files are needed. scripts\\fetch_data.py writes the same tables to data\\snapshot as an independent check.",
+                    "textStyle": {
+                      "fontSize": "10pt",
+                      "color": "#23262D"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
